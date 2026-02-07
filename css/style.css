@@ -118,3 +118,98 @@ body {
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
+
+/* =========================
+   RESPONSIVE – VISTA PARA MÓVILES
+   ========================= */
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+    top: 10px;
+    padding: 0 20px;
+  }
+
+  .navbar nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .navbar nav a {
+    font-size: 14px;
+  }
+
+  .btn {
+    font-size: 12px;
+    padding: 6px 14px;
+  }
+
+  /* HERO */
+  .hero {
+    padding: 0 20px;
+  }
+
+  .hero-box {
+    width: 100%;
+    padding: 40px 20px;
+  }
+
+  .hero-box h1 {
+    font-size: 32px;
+    letter-spacing: 1.5px;
+  }
+
+  .hero-box p {
+    font-size: 14px;
+  }
+
+  /* ABOUT */
+  .about {
+    padding: 60px 20px;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    max-width: 300px;
+    height: 220px;
+  }
+
+  /* FEATURES */
+  .features {
+    padding: 60px 20px;
+  }
+
+  .icons {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+/* =========================
+   MÓVILES PEQUEÑOS
+   ========================= */
+@media (max-width: 480px) {
+
+  .hero-box h1 {
+    font-size: 26px;
+  }
+
+  .navbar nav a {
+    font-size: 13px;
+  }
+
+  .icons {
+    grid-template-columns: 1fr;
+  }
+
+}
+
