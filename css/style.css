@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #f6f1e7;
+  color: #2f2f2f;
+}
+
+/* NAVBAR */
+.navbar {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  z-index: 10;
+}
+
+.navbar nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+.btn {
+  padding: 8px 18px;
+  border-radius: 20px;
+  border: none;
+  background: white;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  background:
+  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  url("https://wallpapers.com/images/hd/green-leaves-background-39hzfg9nvuarivt1.jpg") center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-box {
+  background: transparent; /* ← esto quita el fondo negro */
+  padding: 60px;
+  border-radius: 30px;
+  text-align: center;
+  color: white;
+  width: 70%;
+  max-width: 900px;
+}
+.hero-box h1 {
+  font-size: 48px;
+  letter-spacing: 2px;
+}
+
+.hero-box h1 span {
+  color: #b9ff6a;
+}
+
+.hero-box p {
+  margin: 20px 0;
+  font-size: 15px;
+}
+
+.btn.light {
+  background: #ffffff;
+}
+
+/* ABOUT */
+.about {
+  padding: 80px 60px;
+  text-align: center;
+}
+
+.about h2 {
+  margin-bottom: 40px;
+  font-size: 28px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 200px;
+  height: 260px;
+  background: #2f5d2f;
+  border-radius: 20px;
+}
+
+/* FEATURES */
+.features {
+  background: #2f5d2f;
+  color: white;
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.features h2 {
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+.icons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
