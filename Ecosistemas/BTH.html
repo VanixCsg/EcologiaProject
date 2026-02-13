@@ -1,229 +1,415 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Bosques Tropicales Húmedos - Panamá Oeste</title>
-        <link rel="stylesheet" href="../Ecosistemas/css/BTH.CSS">
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
-    </head>
-    <body>
-    <!-- Botón de regreso -->
-    <a href="O.D.E.html" class="btn-volver">← Volver al Menú</a>
-    <div class="container">
-        <!-- Header -->
-        <header class="header">
-            <h1>FLORA DE LOS BOSQUES TROPICALES HÚMEDOS</h1>
-            <p class="subtitulo">Panamá Oeste</p>
-        </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bosques Tropicales Húmedos - Flora de Panamá Oeste</title>
+    <link rel="stylesheet" href="../Ecosistemas/css/BTH.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER CORPORATIVO (IDÉNTICO A O.D.E.html) -->
+    <header class="header-profesional">
+        <div class="header-contenido">
+            <a href="../index.html" class="logo-empresa">
+                <div class="logo-icono">🌿</div>
+                <div class="logo-texto">
+                    <h1>Ecosistema de Panamá Oeste</h1>
+                    <p>Conservación y Biodiversidad</p>
+                </div>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="O.D.E.html">Ecosistemas</a></li>
+                    <li><a href="../Fauna/O.D.F.html">Faunas</a></li>
+                    <li><a href="../Especies Extintas/M.E.E.html">Especies Extintas</a></li>
+                    <li><a href="../Areas Protegidas/AP.html">Áreas Protegidas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-        <!-- Carrusel de Imágenes -->
-        <section class="carrusel-container">
-            <div class="carrusel">
-                <div class="carrusel-slide">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL7igwx2Zb4V9MceqR7WdEJHkhbaudmDzbzQ&s.JPG" alt="Bosque Húmedo 1">
+    <!-- BREADCRUMB (IDÉNTICO A O.D.E.html) -->
+    <nav class="breadcrumb">
+        <a href="O.D.E.html">Ecosistemas</a>
+        <span>›</span>
+        <span>Bosques Tropicales Húmedos</span>
+    </nav>
+
+    <!-- HERO SECTION - ESPECÍFICO PARA BTH PERO CON ESTILO ODE -->
+    <section class="hero-section-bth">
+        <div class="hero-overlay"></div>
+        <div class="hero-contenido">
+            <h1 class="hero-titulo">Bosques Tropicales Húmedos</h1>
+            <p class="hero-subtitulo">
+                Descubre la increíble diversidad de flora que albergan los bosques 
+                húmedos de Panamá Oeste, un tesoro natural de biodiversidad
+            </p>
+        </div>
+    </section>
+
+    <!-- CARRUSEL DE IMÁGENES (REDISEÑADO CON ESTILO TECH) -->
+    <section class="carrusel-container">
+        <div class="carrusel">
+            <!-- PRIMERA COPIA -->
+            <div class="carrusel-slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL7igwx2Zb4V9MceqR7WdEJHkhbaudmDzbzQ&s.JPG" alt="Bosque Húmedo 1">
+            </div>
+            <div class="carrusel-slide">
+                <img src="https://manglar-carbono.utp.ac.pa/wp-content/uploads/2025/03/Selva.webp" alt="Bosque Húmedo 2">
+            </div>
+            <div class="carrusel-slide">
+                <img src="https://st2.depositphotos.com/3588977/5421/i/450/depositphotos_54218379-stock-photo-clouds-and-forest-in-panama.jpg" alt="Bosque Húmedo 3">
+            </div>
+            <div class="carrusel-slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcUmG2uzg07c93Yo2-DtaxI6tWykapquTb-w&s.jpg" alt="Bosque Húmedo 4">
+            </div>
+            <div class="carrusel-slide">
+                <img src="https://miambiente.gob.pa/wp-content/uploads/2023/03/parque-nal-campana-212-scaled.jpg" alt="Bosque Húmedo 5">
+            </div>
+            <!-- SEGUNDA COPIA (PARA EFECTO INFINITO) -->
+            <div class="carrusel-slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL7igwx2Zb4V9MceqR7WdEJHkhbaudmDzbzQ&s.JPG" alt="Bosque Húmedo 1">
+            </div>
+            <div class="carrusel-slide">
+                <img src="https://manglar-carbono.utp.ac.pa/wp-content/uploads/2025/03/Selva.webp" alt="Bosque Húmedo 2">
+            </div>
+            <div class="carrusel-slide">
+                <img src="https://st2.depositphotos.com/3588977/5421/i/450/depositphotos_54218379-stock-photo-clouds-and-forest-in-panama.jpg" alt="Bosque Húmedo 3">
+            </div>
+            <div class="carrusel-slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcUmG2uzg07c93Yo2-DtaxI6tWykapquTb-w&s.jpg" alt="Bosque Húmedo 4">
+            </div>
+            <div class="carrusel-slide">
+                <img src="https://miambiente.gob.pa/wp-content/uploads/2023/03/parque-nal-campana-212-scaled.jpg" alt="Bosque Húmedo 5">
+            </div>
+        </div>
+        <div class="carrusel-descripcion">
+            <p>Paisajes característicos de los bosques tropicales húmedos de Panamá Oeste</p>
+        </div>
+    </section>
+
+    <!-- INFORMACIÓN GENERAL (REDISEÑADA CON ESTILO INTRO DE ODE) -->
+    <section class="intro-section">
+        <h2>Información General del Ecosistema</h2>
+        <p>
+            Los bosques tropicales húmedos de Panamá Oeste se encuentran principalmente en 
+            <strong>La Chorrera, Capira (zonas altas) y las áreas cercanas al Parque Nacional Altos de Campana</strong>. 
+            Son ecosistemas con lluvia abundante todo el año y vegetación exuberante de varios estratos.
+        </p>
+
+        <!-- CARACTERÍSTICAS EN GRID (COMO STATS DE ODE) -->
+        <div class="caracteristicas-grid">
+            <div class="caracteristica">
+                <span class="icono">🌡️</span>
+                <h3>Temperatura</h3>
+                <p>24-28°C</p>
+            </div>
+            <div class="caracteristica">
+                <span class="icono">💧</span>
+                <h3>Precipitación</h3>
+                <p>2,500-4,000 mm/año</p>
+            </div>
+            <div class="caracteristica">
+                <span class="icono">🌳</span>
+                <h3>Tipo</h3>
+                <p>Perennifolio</p>
+            </div>
+            <div class="caracteristica">
+                <span class="icono">🦋</span>
+                <h3>Biodiversidad</h3>
+                <p>Muy alta diversidad</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- HEADER DE FLORA (COMO SECTION-HEADER DE ODE) -->
+    <div class="section-header">
+        <h2>Flora Característica</h2>
+        <p>Principales especies arbóreas del bosque húmedo panameño</p>
+    </div>
+
+    <!-- GRID DE PLANTAS (CARDS REDISEÑADAS AL ESTILO ODE) -->
+    <section class="plantas-grid">
+        
+        <!-- Planta 1: Cedro Amargo -->
+        <article class="planta-card">
+            <div class="planta-imagen">
+                <img src="https://c8.alamy.com/zooms/9/a650807dbfcb4dcfa77d413c603669b8/demtjh.jpg" alt="Cedro Amargo">
+                <span class="planta-badge">🌳 Árbol Emblemático</span>
+            </div>
+            <div class="planta-info">
+                <h3>Cedro Amargo</h3>
+                <p class="nombre-cientifico">Cedrela odorata</p>
+                <p class="descripcion">Árbol majestuoso de hasta 40m de altura, con corteza aromática. Hojas compuestas que pueden alcanzar hasta 60cm de largo.</p>
+                <div class="plant-tags">
+                    <span class="plant-tag">Madera preciosa</span>
+                    <span class="plant-tag">Medicinal</span>
+                    <span class="plant-tag">Hasta 40m</span>
                 </div>
-                <div class="carrusel-slide">
-                    <img src="https://manglar-carbono.utp.ac.pa/wp-content/uploads/2025/03/Selva.webp" alt="Bosque Húmedo 2">
-                </div>
-                <div class="carrusel-slide">
-                    <img src="https://st2.depositphotos.com/3588977/5421/i/450/depositphotos_54218379-stock-photo-clouds-and-forest-in-panama.jpg" alt="Bosque Húmedo 3">
-                </div>
-                <div class="carrusel-slide">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcUmG2uzg07c93Yo2-DtaxI6tWykapquTb-w&s.jpg" alt="Bosque Húmedo 4">
-                </div>
-                <div class="carrusel-slide">
-                    <img src="https://miambiente.gob.pa/wp-content/uploads/2023/03/parque-nal-campana-212-scaled.jpg" alt="Bosque Húmedo 5">
-                </div>
-                <!-- DUPLICADO -->
-                <div class="carrusel-slide">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL7igwx2Zb4V9MceqR7WdEJHkhbaudmDzbzQ&s.jpg" alt="Bosque Húmedo 1">
-                </div>
-                <div class="carrusel-slide">
-                    <img src="https://manglar-carbono.utp.ac.pa/wp-content/uploads/2025/03/Selva.webp" alt="Bosque Húmedo 2">
-                </div>
-                <div class="carrusel-slide">
-                    <img src="https://st2.depositphotos.com/3588977/5421/i/450/depositphotos_54218379-stock-photo-clouds-and-forest-in-panama.jpg" alt="Bosque Húmedo 3">
-                </div>
-                <div class="carrusel-slide">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcUmG2uzg07c93Yo2-DtaxI6tWykapquTb-w&s.jpg" alt="Bosque Húmedo 4">
-                </div>
-                <div class="carrusel-slide">
-                    <img src="https://miambiente.gob.pa/wp-content/uploads/2023/03/parque-nal-campana-212-scaled.jpg" alt="Bosque Húmedo 5">
+                <div class="usos">
+                    <strong>Usos:</strong> Madera para muebles finos, construcción, instrumentos musicales. Corteza medicinal.
                 </div>
             </div>
-            <div class="carrusel-descripcion">
-                <p> Paisajes característicos de los bosques tropicales húmedos de Panamá Oeste</p>
-            </div>
-        </section>
+        </article>
 
-        <!-- Información General -->
-        <section class="info-general">
-            <div class="info-content">
-                <h2> Información General</h2>
-                <p>Los bosques tropicales húmedos de Panamá Oeste se encuentran principalmente en <strong>La Chorrera, Capira (zonas altas) y las áreas cercanas al Parque Nacional Altos de Campana</strong>. Son ecosistemas con lluvia abundante todo el año y vegetación exuberante de varios estratos.</p>
-                
-                <div class="caracteristicas-grid">
-                    <div class="caracteristica">
-                        <span class="icono"></span>
-                        <h3>Temperatura</h3>
-                        <p>24-28°C</p>
-                    </div>
-                    <div class="caracteristica">
-                        <span class="icono"></span>
-                        <h3>Precipitación</h3>
-                        <p>2,500-4,000 mm/año</p>
-                    </div>
-                    <div class="caracteristica">
-                        <span class="icono"></span>
-                        <h3>Tipo</h3>
-                        <p>Perennifolio</p>
-                    </div>
-                    <div class="caracteristica">
-                        <span class="icono"></span>
-                        <h3>Biodiversidad</h3>
-                        <p>Muy alta diversidad</p>
-                    </div>
+        <!-- Planta 2: Ceiba -->
+        <article class="planta-card">
+            <div class="planta-imagen">
+                <img src="https://inaturalist-open-data.s3.amazonaws.com/photos/32279278/large.jpg" alt="Ceiba">
+                <span class="planta-badge">🌳 Árbol Sagrado</span>
+            </div>
+            <div class="planta-info">
+                <h3>Ceiba</h3>
+                <p class="nombre-cientifico">Ceiba pentandra</p>
+                <p class="descripcion">Árbol gigante que alcanza hasta 70m, con tronco espinoso y raíces tabulares. Árbol sagrado en culturas precolombinas.</p>
+                <div class="plant-tags">
+                    <span class="plant-tag">Hasta 70m</span>
+                    <span class="plant-tag">Raíces tabulares</span>
+                    <span class="plant-tag">Sagrado</span>
+                </div>
+                <div class="usos">
+                    <strong>Usos:</strong> Madera liviana para canoas, kapok para rellenos, medicinal.
                 </div>
             </div>
-        </section>
+        </article>
 
-        <!-- Título de Plantas -->
-        <div class="seccion-titulo">
-            <h2> Flora Característica</h2>
-            <p>Principales especies arbóreas del bosque húmedo panameño</p>
+        <!-- Planta 3: Caoba -->
+        <article class="planta-card">
+            <div class="planta-imagen">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQVsXYWqq-vBtWcv99mAaakHu4CS5rHzdHeA&s.jpg" alt="Caoba">
+                <span class="planta-badge">🌳 En Peligro</span>
+            </div>
+            <div class="planta-info">
+                <h3>Caoba</h3>
+                <p class="nombre-cientifico">Swietenia macrophylla</p>
+                <p class="descripcion">Árbol de 30-50m con madera rojiza de altísima calidad. Especie en peligro por sobreexplotación histórica.</p>
+                <div class="plant-tags">
+                    <span class="plant-tag">Madera valiosa</span>
+                    <span class="plant-tag">En peligro</span>
+                    <span class="plant-tag">Ebanistería</span>
+                </div>
+                <div class="usos">
+                    <strong>Usos:</strong> Madera más valiosa para ebanistería de lujo, construcción naval.
+                </div>
+            </div>
+        </article>
+
+        <!-- Planta 4: Laurel -->
+        <article class="planta-card">
+            <div class="planta-imagen">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJkBy2l5Zh90Ttqis8OmX2ysYl39pFqV3xDA&s.jpg" alt="Laurel">
+                <span class="planta-badge">🌳 Crecimiento Rápido</span>
+            </div>
+            <div class="planta-info">
+                <h3>Laurel</h3>
+                <p class="nombre-cientifico">Cordia alliodora</p>
+                <p class="descripcion">Árbol de 20-30m con flores blancas aromáticas. Crece rápidamente y es muy común en bosques secundarios.</p>
+                <div class="plant-tags">
+                    <span class="plant-tag">Flores aromáticas</span>
+                    <span class="plant-tag">Crecimiento rápido</span>
+                    <span class="plant-tag">Madera fina</span>
+                </div>
+                <div class="usos">
+                    <strong>Usos:</strong> Madera para construcción, muebles, artesanías. Flores melíferas.
+                </div>
+            </div>
+        </article>
+
+        <!-- Planta 5: Balsa -->
+        <article class="planta-card">
+            <div class="planta-imagen">
+                <img src="https://www.elmundoforestal.com/wp-content/uploads/2020/09/balsa.jpg" alt="Balsa">
+                <span class="planta-badge">🌳 Madera Liviana</span>
+            </div>
+            <div class="planta-info">
+                <h3>Balsa</h3>
+                <p class="nombre-cientifico">Ochroma pyramidale</p>
+                <p class="descripcion">Árbol de crecimiento muy rápido, 20-30m de altura. Madera más liviana del mundo comercialmente explotada.</p>
+                <div class="plant-tags">
+                    <span class="plant-tag">Madera más liviana</span>
+                    <span class="plant-tag">Crecimiento rápido</span>
+                    <span class="plant-tag">Aeromodelismo</span>
+                </div>
+                <div class="usos">
+                    <strong>Usos:</strong> Aeromodelismo, flotadores, aislamiento térmico y acústico.
+                </div>
+            </div>
+        </article>
+
+        <!-- Planta 6: Almendro de Montaña -->
+        <article class="planta-card">
+            <div class="planta-imagen">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUVNMtKCJ4H38_82zAUnoLxyZpNef08lGfaA&s.jpg" alt="Almendro">
+                <span class="planta-badge">🌳 Madera Dura</span>
+            </div>
+            <div class="planta-info">
+                <h3>Almendro de Montaña</h3>
+                <p class="nombre-cientifico">Dipteryx panamensis</p>
+                <p class="descripcion">Árbol de 30-50m con madera extremadamente dura. Produce semillas comestibles similares a almendras.</p>
+                <div class="plant-tags">
+                    <span class="plant-tag">Madera durísima</span>
+                    <span class="plant-tag">Semillas comestibles</span>
+                    <span class="plant-tag">Construcción pesada</span>
+                </div>
+                <div class="usos">
+                    <strong>Usos:</strong> Madera para construcción pesada, semillas comestibles, ornamental.
+                </div>
+            </div>
+        </article>
+
+        <!-- Planta 7: María -->
+        <article class="planta-card">
+            <div class="planta-imagen">
+                <img src="https://media-plants.earth.com/images/2018/11/15/11295603017382971/calophyllum-longifolium.jpg" alt="María">
+                <span class="planta-badge">🌳 Resina Medicinal</span>
+            </div>
+            <div class="planta-info">
+                <h3>María</h3>
+                <p class="nombre-cientifico">Calophyllum longifolium</p>
+                <p class="descripcion">Árbol de 25-40m con copa densa y flores blancas aromáticas. Produce resina amarilla medicinal.</p>
+                <div class="plant-tags">
+                    <span class="plant-tag">Resina medicinal</span>
+                    <span class="plant-tag">Flores aromáticas</span>
+                    <span class="plant-tag">Construcción naval</span>
+                </div>
+                <div class="usos">
+                    <strong>Usos:</strong> Madera para construcción naval y postes, resina medicinal, ornamental.
+                </div>
+            </div>
+        </article>
+
+        <!-- Planta 8: Guarumo -->
+        <article class="planta-card">
+            <div class="planta-imagen">
+                <img src="https://www.picturethisai.com/wiki-image/1080/224662403455352832.jpeg" alt="Guarumo">
+                <span class="planta-badge">🌳 Pionero</span>
+            </div>
+            <div class="planta-info">
+                <h3>Guarumo</h3>
+                <p class="nombre-cientifico">Cecropia peltata</p>
+                <p class="descripcion">Árbol pionero de 15-25m con hojas grandes palmadas plateadas por debajo. Tronco hueco habitado por hormigas.</p>
+                <div class="plant-tags">
+                    <span class="plant-tag">Hojas plateadas</span>
+                    <span class="plant-tag">Tronco hueco</span>
+                    <span class="plant-tag">Alimento perezosos</span>
+                </div>
+                <div class="usos">
+                    <strong>Usos:</strong> Medicinal (diabetes, bronquitis), alimento para perezosos, papel artesanal.
+                </div>
+            </div>
+        </article>
+
+    </section>
+
+    <!-- SECCIÓN DE COMPROMISO (IDÉNTICA A ODE) -->
+    <section class="compromiso-section">
+        <div class="compromiso-contenido">
+            <h2>Comprometidos con la Conservación</h2>
+            <p>
+                Los bosques tropicales húmedos de Panamá Oeste son vitales para el equilibrio ecológico de nuestra región. 
+                Trabajamos para proteger estas especies y sus hábitats, asegurando que las futuras generaciones puedan 
+                conocer y disfrutar de esta increíble biodiversidad.
+            </p>
+            <div class="compromiso-acciones">
+                <a href="#contacto" class="btn-secundario">Únete a la Conservación</a>
+                <a href="#donaciones" class="btn-secundario">Apoya Nuestra Labor</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER CORPORATIVO (IDÉNTICO A ODE) -->
+    <footer class="footer-profesional">
+        <div class="footer-contenido">
+            <div class="footer-columna">
+                <h3>EcoPanamá Oeste</h3>
+                <p>
+                    Organización dedicada a la conservación de ecosistemas y la 
+                    promoción del desarrollo sostenible en Panamá Oeste.
+                </p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon" aria-label="Facebook">f</a>
+                    <a href="#" class="social-icon" aria-label="Twitter">𝕏</a>
+                    <a href="#" class="social-icon" aria-label="Instagram">📷</a>
+                    <a href="#" class="social-icon" aria-label="LinkedIn">in</a>
+                </div>
+            </div>
+
+            <div class="footer-columna">
+                <h3>Ecosistemas</h3>
+                <ul>
+                    <li><a href="BTH.html">Bosques Húmedos</a></li>
+                    <li><a href="BTS.HTML">Bosques Secos</a></li>
+                    <li><a href="Mang.html">Manglares</a></li>
+                    <li><a href="RAD.html">Agua Dulce</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-columna">
+                <h3>Recursos</h3>
+                <ul>
+                    <li><a href="#educacion">Educación Ambiental</a></li>
+                    <li><a href="#investigacion">Investigación</a></li>
+                    <li><a href="#publicaciones">Publicaciones</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-columna">
+                <h3>Contacto</h3>
+                <p>📍 Panamá Oeste, Panamá</p>
+                <p>📧 info@ecopanama-oeste.org</p>
+                <p>📞 +507 1234-5678</p>
+                <p>🕐 Lun - Vie: 8:00 AM - 5:00 PM</p>
+            </div>
         </div>
 
-        <!-- Grid de Plantas -->
-        <section class="plantas-grid">
-            
-            <!-- Planta 1: Cedro Amargo -->
-            <div class="planta-card">
-                <div class="planta-imagen">
-                    <img src="https://c8.alamy.com/zooms/9/a650807dbfcb4dcfa77d413c603669b8/demtjh.jpg" alt="Cedro Amargo">
-                </div>
-                <div class="planta-info">
-                    <h3>Cedro Amargo</h3>
-                    <p class="nombre-cientifico">Cedrela odorata</p>
-                    <p class="descripcion">Árbol majestuoso de hasta 40m de altura, con corteza aromática. Hojas compuestas que pueden alcanzar hasta 60cm de largo.</p>
-                    <div class="usos">
-                        <strong>Usos:</strong> Madera preciosa para muebles finos, construcción, instrumentos musicales. Corteza medicinal.
-                    </div>
-                </div>
-            </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 EcoPanamá Oeste. Todos los derechos reservados. | <a href="#privacidad">Política de Privacidad</a> | <a href="#terminos">Términos de Uso</a></p>
+        </div>
+    </footer>
 
-            <!-- Planta 2: Ceiba -->
-            <div class="planta-card">
-                <div class="planta-imagen">
-                    <img src="https://inaturalist-open-data.s3.amazonaws.com/photos/32279278/large.jpg" alt="Ceiba">
-                </div>
-                <div class="planta-info">
-                    <h3>Ceiba</h3>
-                    <p class="nombre-cientifico">Ceiba pentandra</p>
-                    <p class="descripcion">Árbol gigante que alcanza hasta 70m, con tronco espinoso y raíces tabulares. Árbol sagrado en culturas precolombinas.</p>
-                    <div class="usos">
-                        <strong>Usos:</strong> Madera liviana para canoas, kapok (fibra del fruto) para rellenos, medicinal.
-                    </div>
-                </div>
-            </div>
+    <script>
+        // Animación suave al hacer scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
 
-            <!-- Planta 3: Caoba -->
-            <div class="planta-card">
-                <div class="planta-imagen">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQVsXYWqq-vBtWcv99mAaakHu4CS5rHzdHeA&s.jpg" alt="Caoba">
-                </div>
-                <div class="planta-info">
-                    <h3>Caoba</h3>
-                    <p class="nombre-cientifico">Swietenia macrophylla</p>
-                    <p class="descripcion">Árbol de 30-50m con madera rojiza de altísima calidad. Especie en peligro por sobreexplotación histórica.</p>
-                    <div class="usos">
-                        <strong>Usos:</strong> Madera más valiosa del mundo para ebanistería de lujo, construcción naval.
-                    </div>
-                </div>
-            </div>
+        // Efecto parallax sutil en hero
+        window.addEventListener('scroll', () => {
+            const hero = document.querySelector('.hero-section-bth');
+            const scrolled = window.pageYOffset;
+            if (hero && scrolled < hero.offsetHeight) {
+                hero.style.transform = `translateY(${scrolled * 0.5}px)`;
+            }
+        });
 
-            <!-- Planta 4: Laurel -->
-            <div class="planta-card">
-                <div class="planta-imagen">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJkBy2l5Zh90Ttqis8OmX2ysYl39pFqV3xDA&s.jpg" alt="Laurel">
-                </div>
-                <div class="planta-info">
-                    <h3>Laurel</h3>
-                    <p class="nombre-cientifico">Cordia alliodora</p>
-                    <p class="descripcion">Árbol de 20-30m con flores blancas aromáticas. Crece rápidamente y es muy común en bosques secundarios.</p>
-                    <div class="usos">
-                        <strong>Usos:</strong> Madera de alta calidad para construcción, muebles, artesanías. Flores melíferas.
-                    </div>
-                </div>
-            </div>
+        // Lazy loading para imágenes
+        if ('IntersectionObserver' in window) {
+            const imageObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        img.classList.add('loaded');
+                        observer.unobserve(img);
+                    }
+                });
+            });
 
-            <!-- Planta 5: Balsa -->
-            <div class="planta-card">
-                <div class="planta-imagen">
-                    <img src="https://www.elmundoforestal.com/wp-content/uploads/2020/09/balsa.jpg" alt="Balsa">
-                </div>
-                <div class="planta-info">
-                    <h3>Balsa</h3>
-                    <p class="nombre-cientifico">Ochroma pyramidale</p>
-                    <p class="descripcion">Árbol de crecimiento muy rápido, 20-30m de altura. Madera más liviana del mundo comercialmente explotada.</p>
-                    <div class="usos">
-                        <strong>Usos:</strong> Aeromodelismo, flotadores, aislamiento térmico y acústico, artesanías.
-                    </div>
-                </div>
-            </div>
-
-            <!-- Planta 6: Almendro de Montaña -->
-            <div class="planta-card">
-                <div class="planta-imagen">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUVNMtKCJ4H38_82zAUnoLxyZpNef08lGfaA&s.jpg" alt="Almendro">
-                </div>
-                <div class="planta-info">
-                    <h3>Almendro de Montaña</h3>
-                    <p class="nombre-cientifico">Dipteryx panamensis</p>
-                    <p class="descripcion">Árbol de 30-50m con madera extremadamente dura. Produce semillas comestibles similares a almendras.</p>
-                    <div class="usos">
-                        <strong>Usos:</strong> Madera durísima para construcción pesada, semillas comestibles, árbol ornamental.
-                    </div>
-                </div>
-            </div>
-
-            <!-- Planta 7: María -->
-            <div class="planta-card">
-                <div class="planta-imagen">
-                    <img src="https://media-plants.earth.com/images/2018/11/15/11295603017382971/calophyllum-longifolium.jpg" alt="María">
-                </div>
-                <div class="planta-info">
-                    <h3>María</h3>
-                    <p class="nombre-cientifico">Calophyllum longifolium</p>
-                    <p class="descripcion">Árbol de 25-40m con copa densa y flores blancas aromáticas. Produce resina amarilla medicinal.</p>
-                    <div class="usos">
-                        <strong>Usos:</strong> Madera para construcción naval y postes, resina medicinal, ornamental.
-                    </div>
-                </div>
-            </div>
-
-            <!-- Planta 8: Guarumo -->
-            <div class="planta-card">
-                <div class="planta-imagen">
-                    <img src="https://www.picturethisai.com/wiki-image/1080/224662403455352832.jpeg" alt="Guarumo">
-                </div>
-                <div class="planta-info">
-                    <h3>Guarumo</h3>
-                    <p class="nombre-cientifico">Cecropia peltata</p>
-                    <p class="descripcion">Árbol pionero de 15-25m con hojas grandes palmadas plateadas por debajo. Tronco hueco habitado por hormigas.</p>
-                    <div class="usos">
-                        <strong>Usos:</strong> Medicinal (diabetes, bronquitis), alimento para perezosos, papel artesanal.
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-        <!-- Footer -->
-        <footer class="footer">
-            <p> Conservemos los Bosques Tropicales Húmedos de Panamá Oeste</p>
-            <p class="footer-small">Información recopilada sobre la flora característica de la región</p>
-        </footer>
-    </div>
+            document.querySelectorAll('.planta-imagen img, .carrusel-slide img').forEach(img => {
+                imageObserver.observe(img);
+            });
+        }
+    </script>
 </body>
 </html>
