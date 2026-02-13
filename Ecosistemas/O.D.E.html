@@ -3,99 +3,317 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecosistemas de Panamá Oeste</title>
-    <link rel="stylesheet" href="../Ecosistemas/css/ODE.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+    <title>Ecosistemas de Panamá Oeste | Conservación Ambiental</title>
+    <meta name="description" content="Descubre y protege los ecosistemas de Panamá Oeste. Comprometidos con la conservación de la biodiversidad y el desarrollo sostenible.">
+    <link rel="stylesheet" href="css/ODE.css">
+    <link rel="stylesheet" href="js/Tra.js">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-     <a href="../index.html" class="btn-volver">← Volver al inicio</a>
-    <div class="container">
-        <h1>Ecosistemas de Panamá Oeste</h1>
-
-        <div class="grid">
-            <!-- SECCION 1 Bosques tropicales húmedos -->
-            <div class="card">
-                <div class="card-image">
-                    <img src="https://st2.depositphotos.com/3588977/5421/i/450/depositphotos_54218379-stock-photo-clouds-and-forest-in-panama.jpg" alt="Bosque húmedo">
+    
+    <!-- HEADER CORPORATIVO -->
+    <header class="header-profesional">
+        <div class="header-contenido">
+            <a href="../index.html" class="logo-empresa">
+                <div class="logo-icono">🌿</div>
+                <div class="logo-texto">
+                    <h1>Ecosistema de Panamá Oeste</h1>
+                    <p>Conservación y Biodiversidad</p>
                 </div>
-                <div class="card-content">
-                <button class="btn" onclick="window.location.href='BTH.html'">
-                    Bosques tropicales húmedos
-                </button>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="O.D.E.html">Ecosistemas</a></li>
+                    <li><a href="../Fauna/O.D.F.html">Faunas</a></li>
+                    <li><a href="../Especies Extintas/M.E.E.html">Especies Extintas</a></li>
+                    <li><a href="..Areas Protegidas/AP.html">Áreas Protegidas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-contenido">
+            <h1 class="hero-titulo">Ecosistemas de Panamá Oeste</h1>
+            <p class="hero-subtitulo">
+                Descubre la riqueza natural de nuestra región y únete a nuestra misión 
+                de conservar la biodiversidad para las futuras generaciones
+            </p>
+            <div class="hero-badges">
+                <span class="badge">🌳 4 Ecosistemas Únicos</span>
+                <span class="badge">🦜 200+ Especies</span>
+                <span class="badge">💧 Áreas Protegidas</span>
             </div>
         </div>
+    </section>
 
-            <!-- SECCION 2 Bosques tropicales secos -->
-            <div class="card">
-                <div class="card-image">
-                    <img src="https://cdn.arcgis.com/sharing/rest/content/items/cd86f6c198134a5ca2b8e9fa25933adf/resources/p5aSEwdXk90e1ybMPgFOq.jpeg" alt="Bosque seco">
+    <!-- BREADCRUMB -->
+    <nav class="breadcrumb">
+        <a href="../index.html">Inicio</a>
+        <span>›</span>
+        <span>Ecosistemas</span>
+    </nav>
+
+    <!-- SECCIÓN DE INTRODUCCIÓN -->
+    <section class="intro-section">
+        <h2>Nuestra Misión de Conservación</h2>
+        <p>
+            Panamá Oeste alberga ecosistemas vitales que desempeñan un papel crucial en el 
+            equilibrio ambiental de nuestra región. Cada uno de estos hábitats naturales 
+            alberga especies únicas y contribuye al bienestar de nuestras comunidades.
+        </p>
+
+        <!-- Estadísticas -->
+        <div class="stats-container">
+            <div class="stat-box">
+                <div class="stat-numero">4</div>
+                <div class="stat-texto">Ecosistemas Principales</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-numero">200+</div>
+                <div class="stat-texto">Especies Protegidas</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-numero">15,000</div>
+                <div class="stat-texto">Hectáreas Conservadas</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-numero">10</div>
+                <div class="stat-texto">Años de Trabajo</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GRID DE ECOSISTEMAS -->
+    <section id="ecosistemas" class="ecosistemas-container">
+        <div class="section-header">
+            <h2>Explora Nuestros Ecosistemas</h2>
+            <p>Conoce la diversidad biológica que hace de Panamá Oeste un tesoro natural</p>
+        </div>
+
+        <div class="grid-ecosistemas">
+            
+            <!-- Card 1: Bosques Tropicales Húmedos -->
+            <article class="card-ecosistema">
+                <div class="card-imagen-container">
+                    <img src="https://st2.depositphotos.com/3588977/5421/i/450/depositphotos_54218379-stock-photo-clouds-and-forest-in-panama.jpg" 
+                         alt="Bosques Tropicales Húmedos" 
+                         class="card-imagen">
+                    <span class="card-badge">🌧️ Húmedo</span>
                 </div>
-                <div class="card-content">
-                    <button class="btn" onclick="window.location.href='BTS.HTML'">
-                        Bosques tropicales Secos 
+                <div class="card-contenido">
+                    <h3 class="card-titulo">Bosques Tropicales Húmedos</h3>
+                    <p class="card-descripcion">
+                        Ecosistemas de alta biodiversidad caracterizados por lluvias abundantes 
+                        durante todo el año, albergando especies endémicas de flora y fauna.
+                    </p>
+                    <div class="card-features">
+                        <span class="feature-tag">Alta Biodiversidad</span>
+                        <span class="feature-tag">Lluvias Todo el Año</span>
+                        <span class="feature-tag">Flora Exuberante</span>
+                    </div>
+                    <button class="btn-explorar" onclick="window.location.href='BTH.html'">
+                        Explorar Ecosistema
+                        <span class="btn-icon">→</span>
                     </button>
                 </div>
+            </article>
+
+            <!-- Card 2: Bosques Tropicales Secos -->
+            <article class="card-ecosistema">
+                <div class="card-imagen-container">
+                    <img src="https://cdn.arcgis.com/sharing/rest/content/items/cd86f6c198134a5ca2b8e9fa25933adf/resources/p5aSEwdXk90e1ybMPgFOq.jpeg" 
+                         alt="Bosques Tropicales Secos" 
+                         class="card-imagen">
+                    <span class="card-badge">☀️ Seco</span>
+                </div>
+                <div class="card-contenido">
+                    <h3 class="card-titulo">Bosques Tropicales Secos</h3>
+                    <p class="card-descripcion">
+                        Bosques adaptados a estaciones secas prolongadas, con vegetación 
+                        resistente y fauna especializada en conservación de agua.
+                    </p>
+                    <div class="card-features">
+                        <span class="feature-tag">Estación Seca</span>
+                        <span class="feature-tag">Especies Adaptadas</span>
+                        <span class="feature-tag">Ecosistema Único</span>
+                    </div>
+                    <button class="btn-explorar" onclick="window.location.href='BTS.HTML'">
+                        Explorar Ecosistema
+                        <span class="btn-icon">→</span>
+                    </button>
+                </div>
+            </article>
+
+            <!-- Card 3: Manglares -->
+            <article class="card-ecosistema">
+                <div class="card-imagen-container">
+                    <img src="https://miambiente.gob.pa/wp-content/uploads/2023/08/Cocle-celebra-el-Dia-Internacional-por-la-Defensa-del-Manglar.jpg" 
+                         alt="Manglares" 
+                         class="card-imagen">
+                    <span class="card-badge">🌊 Costero</span>
+                </div>
+                <div class="card-contenido">
+                    <h3 class="card-titulo">Manglares</h3>
+                    <p class="card-descripcion">
+                        Bosques costeros vitales que protegen contra la erosión, sirven 
+                        como criaderos de especies marinas y capturan carbono atmosférico.
+                    </p>
+                    <div class="card-features">
+                        <span class="feature-tag">Protección Costera</span>
+                        <span class="feature-tag">Criaderos Marinos</span>
+                        <span class="feature-tag">Captura de CO2</span>
+                    </div>
+                    <button class="btn-explorar" onclick="window.location.href='Mang.html'">
+                        Explorar Ecosistema
+                        <span class="btn-icon">→</span>
+                    </button>
+                </div>
+            </article>
+
+          
+
+            <!-- Card 5: Ríos y Ecosistemas de Agua Dulce -->
+            <article class="card-ecosistema">
+                <div class="card-imagen-container">
+                    <img src="https://arc-anglerfish-arc2-prod-corprensa.s3.amazonaws.com/public/FAGPAEVIF5FPNGAFTMSETEV3RI.jpg" 
+                         alt="Ríos y Ecosistemas de Agua Dulce" 
+                         class="card-imagen">
+                    <span class="card-badge">💧 Dulce</span>
+                </div>
+                <div class="card-contenido">
+                    <h3 class="card-titulo">Ecosistemas de Agua Dulce</h3>
+                    <p class="card-descripcion">
+                        Ríos, lagos y humedales que proveen agua potable, regulan el clima 
+                        local y albergan especies acuáticas únicas de nuestra región.
+                    </p>
+                    <div class="card-features">
+                        <span class="feature-tag">Fuente de Agua</span>
+                        <span class="feature-tag">Regulación Climática</span>
+                        <span class="feature-tag">Especies Endémicas</span>
+                    </div>
+                    <button class="btn-explorar" onclick="window.location.href='RAD.html'">
+                        Explorar Ecosistema
+                        <span class="btn-icon">→</span>
+                    </button>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE COMPROMISO -->
+    <section class="compromiso-section">
+        <div class="compromiso-contenido">
+            <h2>Nuestro Compromiso con el Futuro</h2>
+            <p>
+                En Ecosistema de Panamá Oeste trabajamos cada día para proteger y restaurar estos ecosistemas vitales. 
+                A través de programas de educación ambiental, investigación científica y colaboración comunitaria, 
+                aseguramos que las futuras generaciones puedan disfrutar de la riqueza natural de nuestra región.
+            </p>
+            <div class="compromiso-acciones">
+                <a href="#contacto" class="btn-secundario">Únete a Nosotros</a>
+                <a href="#donaciones" class="btn-secundario">Apoya la Conservación</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER CORPORATIVO -->
+    <footer class="footer-profesional">
+        <div class="footer-contenido">
+            <div class="footer-columna">
+                <h3>EcoPanamá Oeste</h3>
+                <p>
+                    Organización dedicada a la conservación de ecosistemas y la 
+                    promoción del desarrollo sostenible en Panamá Oeste.
+                </p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon" aria-label="Facebook">f</a>
+                    <a href="#" class="social-icon" aria-label="Twitter">𝕏</a>
+                    <a href="#" class="social-icon" aria-label="Instagram">📷</a>
+                    <a href="#" class="social-icon" aria-label="LinkedIn">in</a>
+                </div>
             </div>
 
-            <!-- SECCION 3 Manglares -->
-            <div class="card">
-                <div class="card-image">
-                    <img src="https://miambiente.gob.pa/wp-content/uploads/2023/08/Cocle-celebra-el-Dia-Internacional-por-la-Defensa-del-Manglar.jpg" alt="Manglares">
-                </div>
-                <div class="card-content">
-                    <button class="btn" onclick="window.location.href='Mang.html'">
-                        Manglares
-
-                </div>
+            <div class="footer-columna">
+                <h3>Ecosistemas</h3>
+                <ul>
+                    <li><a href="BTH.html">Bosques Húmedos</a></li>
+                    <li><a href="BTS.HTML">Bosques Secos</a></li>
+                    <li><a href="Mang.html">Manglares</a></li>
+                    <li><a href="MC.html">Marino-Costeros</a></li>
+                    <li><a href="RAD.html">Agua Dulce</a></li>
+                </ul>
             </div>
 
-            <!-- SECCION 4 Ecosistemas marino-costeros-->
-            <div class="card">
-                <div class="card-image">
-                    <img src="https://www.gwp.org/globalassets/global/gwp-cam_images/art_ndcppa_impactos.png" alt="Marino-costero">
-                </div>
-                <div class="card-content">
-                    <button class="btn" onclick="window.location.href='MC.html'">
-                        Ecosistemas marino-costeros
-                </div>
+            <div class="footer-columna">
+                <h3>Recursos</h3>
+                <ul>
+                    <li><a href="#educacion">Educación Ambiental</a></li>
+                    <li><a href="#investigacion">Investigación</a></li>
+                    <li><a href="#publicaciones">Publicaciones</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
             </div>
 
-            <!-- SECCION 5 Ríos y ecosistemas de agua dulce -->
-            <div class="card">
-                <div class="card-image">
-                    <img src="https://arc-anglerfish-arc2-prod-corprensa.s3.amazonaws.com/public/FAGPAEVIF5FPNGAFTMSETEV3RI.jpg" alt="Río">
-                </div>
-                <div class="card-content">
-                    <button class="btn" onclick="window.location.href='RAD.html'">
-                        Ecosistema de agua dulce
-                </div>
+            <div class="footer-columna">
+                <h3>Contacto</h3>
+                <p>📍 Panamá Oeste, Panamá</p>
+                <p>📧 info@ecopanama-oeste.org</p>
+                <p>📞 +507 1234-5678</p>
+                <p>🕐 Lun - Vie: 8:00 AM - 5:00 PM</p>
             </div>
         </div>
 
-        <hr>
+        <div class="footer-bottom">
+            <p>&copy; 2024 EcoPanamá Oeste. Todos los derechos reservados. | <a href="#privacidad">Política de Privacidad</a> | <a href="#terminos">Términos de Uso</a></p>
+        </div>
+    </footer>
 
+    <script>
+        // Animación suave al hacer scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Efecto parallax sutil en hero
+        window.addEventListener('scroll', () => {
+            const hero = document.querySelector('.hero-section');
+            const scrolled = window.pageYOffset;
+            if (hero && scrolled < hero.offsetHeight) {
+                hero.style.transform = `translateY(${scrolled * 0.5}px)`;
+            }
+        });
+
+        // Lazy loading para imágenes
+        if ('IntersectionObserver' in window) {
+            const imageObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        img.classList.add('loaded');
+                        observer.unobserve(img);
+                    }
+                });
+            });
+
+            document.querySelectorAll('.card-imagen').forEach(img => {
+                imageObserver.observe(img);
+            });
+        }
+    </script>
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
