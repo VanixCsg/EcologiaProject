@@ -1,229 +1,416 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Bosques Tropicaes Secos - Panama Oeste</title>
-        <link rel="stylesheet" href="../Ecosistemas/css/BTH.CSS">
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
-    </head>
-    <!-- Bo9tonde regerso -->
-    <a href="O.D.E.html" class="btn-volver">← Volver al Menu</a>
-    <div class="container">
-        <!-- Header -->
-        <header class="header">
-            <h1>FLORA DE LOS BOSQUES TROPICALES SECOS</h1>
-            <p class="subtitulo">Panamá Oeste</p>
-        </header>
-        <!-- Carrusel de Imágenes -->
-<section class="carrusel-container">
-    <div class="carrusel">
-        <div class="carrusel-slide">
-            <img src="https://i.ytimg.com/vi/YyFAbZRIKEo/maxresdefault.jpg" alt="Bosque Seco 1">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bosques Tropicales Secos - Flora de Panamá Oeste</title>
+    <!-- MISMO CSS QUE USA BTH -->
+    <link rel="stylesheet" href="../Ecosistemas/css/BTH.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER CORPORATIVO -->
+    <header class="header-profesional">
+        <div class="header-contenido">
+            <a href="../index.html" class="logo-empresa">
+                <div class="logo-icono">🌿</div>
+                <div class="logo-texto">
+                    <h1>Ecosistema de Panamá Oeste</h1>
+                    <p>Conservación y Biodiversidad</p>
+                </div>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="O.D.E.html">Ecosistemas</a></li>
+                    <li><a href="../Fauna/O.D.F.html">Faunas</a></li>
+                    <li><a href="../Especies Extintas/M.E.E.html">Especies Extintas</a></li>
+                    <li><a href="../Areas Protegidas/AP.html">Áreas Protegidas</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="carrusel-slide">
-            <img src="https://miambiente.gob.pa/wp-content/uploads/2023/08/20230824_103916-scaled.jpg" alt="Bosque Seco 2">
+    </header>
+
+    <!-- BREADCRUMB -->
+    <nav class="breadcrumb">
+        <a href="O.D.E.html">Ecosistemas</a>
+        <span>›</span>
+        <span>Bosques Tropicales Secos</span>
+    </nav>
+
+    <!-- HERO SECTION - BTS (usando la misma clase hero-section-bth) -->
+    <section class="hero-section-bth" style="background: linear-gradient(135deg, rgba(0,0,0,0.95) 0%, rgba(10,10,10,0.9) 50%, rgba(0,0,0,0.95) 100%), url('https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center/cover;">
+        <div class="hero-overlay"></div>
+        <div class="hero-contenido">
+            <h1 class="hero-titulo">Bosques Tropicales Secos</h1>
+            <p class="hero-subtitulo">
+                Descubre la flora única adaptada a la estación seca en los bosques 
+                de Capira, Chame y San Carlos en Panamá Oeste
+            </p>
         </div>
-        <div class="carrusel-slide">
-            <img src="https://images.playacommunity.com/photos/the-coronado-dry-forest.jpg" alt="Bosque Seco 3">
+    </section>
+
+    <!-- CARRUSEL DE IMÁGENES -->
+    <section class="carrusel-container">
+        <div class="carrusel">
+            <!-- PRIMERA COPIA -->
+            <div class="carrusel-slide">
+                <img src="https://i.ytimg.com/vi/YyFAbZRIKEo/maxresdefault.jpg" alt="Bosque Seco 1">
+            </div>
+            <div class="carrusel-slide">
+                <img src="https://miambiente.gob.pa/wp-content/uploads/2023/08/20230824_103916-scaled.jpg" alt="Bosque Seco 2">
+            </div>
+            <div class="carrusel-slide">
+                <img src="https://images.playacommunity.com/photos/the-coronado-dry-forest.jpg" alt="Bosque Seco 3">
+            </div>
+            <div class="carrusel-slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgk-Eax1A3i6FFsX8cPrtRlJdihxYReaZqRw&s.jpg" alt="Bosque Seco 4">
+            </div>
+            <div class="carrusel-slide">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Subtropical_semi-evergreen_seasonal_forest_in_Northern_Thailand.JPG" alt="Bosque Seco 5">
+            </div>
+            <!-- SEGUNDA COPIA -->
+            <div class="carrusel-slide">
+                <img src="https://i.ytimg.com/vi/YyFAbZRIKEo/maxresdefault.jpg" alt="Bosque Seco 1">
+            </div>
+            <div class="carrusel-slide">
+                <img src="https://miambiente.gob.pa/wp-content/uploads/2023/08/20230824_103916-scaled.jpg" alt="Bosque Seco 2">
+            </div>
+            <div class="carrusel-slide">
+                <img src="https://images.playacommunity.com/photos/the-coronado-dry-forest.jpg" alt="Bosque Seco 3">
+            </div>
+            <div class="carrusel-slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgk-Eax1A3i6FFsX8cPrtRlJdihxYReaZqRw&s.jpg" alt="Bosque Seco 4">
+            </div>
+            <div class="carrusel-slide">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Subtropical_semi-evergreen_seasonal_forest_in_Northern_Thailand.JPG" alt="Bosque Seco 5">
+            </div>
         </div>
-        <div class="carrusel-slide">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgk-Eax1A3i6FFsX8cPrtRlJdihxYReaZqRw&s.jpg" alt="Bosque Seco 4">
+        <div class="carrusel-descripcion">
+            <p>Paisajes característicos de los bosques tropicales secos de Panamá Oeste</p>
         </div>
-        <div class="carrusel-slide">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Subtropical_semi-evergreen_seasonal_forest_in_Northern_Thailand.JPG" alt="Bosque Seco 5">
+    </section>
+
+    <!-- INFORMACIÓN GENERAL -->
+    <section class="intro-section">
+        <h2>Información General del Ecosistema</h2>
+        <p>
+            Los bosques tropicales secos de Panamá Oeste se encuentran principalmente en 
+            <strong>Capira, Chame y San Carlos</strong>. Son ecosistemas que experimentan una 
+            estación seca prolongada (4-6 meses) donde muchos árboles pierden sus hojas.
+        </p>
+
+        <!-- CARACTERÍSTICAS EN GRID -->
+        <div class="caracteristicas-grid">
+            <div class="caracteristica">
+                <span class="icono">🌡️</span>
+                <h3>Temperatura</h3>
+                <p>25-32°C</p>
+            </div>
+            <div class="caracteristica">
+                <span class="icono">💧</span>
+                <h3>Precipitación</h3>
+                <p>1,000-1,800 mm/año</p>
+            </div>
+            <div class="caracteristica">
+                <span class="icono">🍂</span>
+                <h3>Tipo</h3>
+                <p>Caducifolio</p>
+            </div>
+            <div class="caracteristica">
+                <span class="icono">🦎</span>
+                <h3>Biodiversidad</h3>
+                <p>Alta diversidad</p>
+            </div>
         </div>
-        <div class="carrusel-slide">
-            <img src="https://i.ytimg.com/vi/YyFAbZRIKEo/maxresdefault.jpg" alt="Bosque Seco 1">
-        </div>
-        <div class="carrusel-slide">
-            <img src="https://miambiente.gob.pa/wp-content/uploads/2023/08/20230824_103916-scaled.jpg" alt="Bosque Seco 2">
-        </div>
-        <div class="carrusel-slide">
-            <img src="https://images.playacommunity.com/photos/the-coronado-dry-forest.jpg" alt="Bosque Seco 3">
-        </div>
-        <div class="carrusel-slide">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgk-Eax1A3i6FFsX8cPrtRlJdihxYReaZqRw&s.jpg" alt="Bosque Seco 4">
-        </div>
-        <div class="carrusel-slide">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Subtropical_semi-evergreen_seasonal_forest_in_Northern_Thailand.JPG" alt="Bosque Seco 5">
-        </div>
+    </section>
+
+    <!-- HEADER DE FLORA -->
+    <div class="section-header">
+        <h2>Flora Característica</h2>
+        <p>Principales especies arbóreas del bosque seco panameño</p>
     </div>
-    <div class="carrusel-descripcion">
-        <p> Paisajes característicos de los bosques tropicales secos de Panamá Oeste</p>
-    </div>
-</section>
 
-        <!-- Información General -->
-        <section class="info-general">
-            <div class="info-content">
-                <h2> Información General</h2>
-                <p>Los bosques tropicales secos de Panamá Oeste se encuentran principalmente en <strong>Capira, Chame y San Carlos</strong>. Son ecosistemas que experimentan una estación seca prolongada (4-6 meses) donde muchos árboles pierden sus hojas.</p>
-                
-                <div class="caracteristicas-grid">
-                    <div class="caracteristica">
-                        <span class="icono"></span>
-                        <h3>Temperatura</h3>
-                        <p>25-32°C</p>
-                    </div>
-                    <div class="caracteristica">
-                        <span class="icono"></span>
-                        <h3>Precipitación</h3>
-                        <p>1,000-1,800 mm/año</p>
-                    </div>
-                    <div class="caracteristica">
-                        <span class="icono"></span>
-                        <h3>Tipo</h3>
-                        <p>Caducifolio</p>
-                    </div>
-                    <div class="caracteristica">
-                        <span class="icono"></span>
-                        <h3>Biodiversidad</h3>
-                        <p>Alta diversidad</p>
-                    </div>
+    <!-- GRID DE PLANTAS (MISMA ESTRUCTURA QUE BTH) -->
+    <section class="plantas-grid">
+        
+        <!-- Planta 1: Guácimo -->
+        <article class="planta-card">
+            <div class="planta-imagen">
+                <img src="https://a.storyblok.com/f/160385/890x605/d3ec670ad8/guacimo-ganaderia.jpg" alt="Guácimo">
+                <span class="planta-badge">🌳 Resistente</span>
+            </div>
+            <div class="planta-info">
+                <h3>Guácimo</h3>
+                <p class="nombre-cientifico">Guazuma ulmifolia</p>
+                <p class="descripcion">Árbol de 10-20m de altura, con flores pequeñas amarillas y frutos comestibles negros.</p>
+                <div class="plant-tags">
+                    <span class="plant-tag">Medicinal</span>
+                    <span class="plant-tag">Forraje</span>
+                    <span class="plant-tag">Frutos comestibles</span>
+                </div>
+                <div class="usos">
+                    <strong>Usos:</strong> Medicinal, forraje para ganado, madera para construcción rural.
                 </div>
             </div>
-        </section>
+        </article>
 
-        <!-- Título de Plantas -->
-        <div class="seccion-titulo">
-            <h2> Flora Característica</h2>
-            <p>Principales especies arbóreas del bosque seco panameño</p>
+        <!-- Planta 2: Roble de Sabana -->
+        <article class="planta-card">
+            <div class="planta-imagen">
+                <img src="https://miambiente.gob.pa/wp-content/uploads/2023/04/Paisajes-encantados-con-la-floracion-del-roble-8.jpg" alt="Roble de Sabana">
+                <span class="planta-badge">🌸 Árbol Nacional</span>
+            </div>
+            <div class="planta-info">
+                <h3>Roble de Sabana</h3>
+                <p class="nombre-cientifico">Tabebuia rosea</p>
+                <p class="descripcion">Árbol emblemático de Panamá, alcanza hasta 30m. Sus flores rosadas espectaculares aparecen en la época seca.</p>
+                <div class="plant-tags">
+                    <span class="plant-tag">Árbol nacional</span>
+                    <span class="plant-tag">Flores rosadas</span>
+                    <span class="plant-tag">Ornamental</span>
+                </div>
+                <div class="usos">
+                    <strong>Usos:</strong> Árbol nacional de Panamá, madera preciosa, ornamental.
+                </div>
+            </div>
+        </article>
+
+        <!-- Planta 3: Cedro Espino -->
+        <article class="planta-card">
+            <div class="planta-imagen">
+                <img src="https://static.wixstatic.com/media/e6eb07_ac85d3e11def46bdae2de21696800f6c~mv2.jpg/v1/fill/w_620,h_655,al_c,q_85,enc_avif,quality_auto/e6eb07_ac85d3e11def46bdae2de21696800f6c~mv2.jpg" alt="Cedro Espino">
+                <span class="planta-badge">🌵 Tronco Espinoso</span>
+            </div>
+            <div class="planta-info">
+                <h3>Cedro Espino</h3>
+                <p class="nombre-cientifico">Pachira quinata</p>
+                <p class="descripcion">Árbol de 15-25m con tronco cubierto de espinas cónicas. Flores blancas grandes y vistosas.</p>
+                <div class="plant-tags">
+                    <span class="plant-tag">Espinas</span>
+                    <span class="plant-tag">Flores blancas</span>
+                    <span class="plant-tag">Cercas vivas</span>
+                </div>
+                <div class="usos">
+                    <strong>Usos:</strong> Madera para construcción, cercas vivas, ornamental.
+                </div>
+            </div>
+        </article>
+
+        <!-- Planta 4: Javillo -->
+        <article class="planta-card">
+            <div class="planta-imagen">
+                <img src="https://www.elmundoforestal.com/wp-content/uploads/2020/09/jabillo.jpg" alt="Javillo">
+                <span class="planta-badge">💥 Frutos Explosivos</span>
+            </div>
+            <div class="planta-info">
+                <h3>Javillo</h3>
+                <p class="nombre-cientifico">Hura crepitans</p>
+                <p class="descripcion">Árbol gigante de hasta 40m, tronco con espinas. Frutos que explotan al madurar dispersando semillas.</p>
+                <div class="plant-tags">
+                    <span class="plant-tag">Frutos explosivos</span>
+                    <span class="plant-tag">Tóxico</span>
+                    <span class="plant-tag">Gigante</span>
+                </div>
+                <div class="usos">
+                    <strong>Usos:</strong> Madera liviana para canoas, medicinal (tóxico, usar con precaución).
+                </div>
+            </div>
+        </article>
+
+        <!-- Planta 5: Guayacán -->
+        <article class="planta-card">
+            <div class="planta-imagen">
+                <img src="https://noticiasncc.com/wp-content/uploads/2022/02/Guayacan-Ciudad-de-Panama.jpg" alt="Guayacán">
+                <span class="planta-badge">🌼 Flores Amarillas</span>
+            </div>
+            <div class="planta-info">
+                <h3>Guayacán</h3>
+                <p class="nombre-cientifico">Handroanthus guayacan</p>
+                <p class="descripcion">Árbol de 20-30m con flores amarillas brillantes que aparecen cuando está sin hojas. Madera extremadamente dura.</p>
+                <div class="plant-tags">
+                    <span class="plant-tag">Madera durísima</span>
+                    <span class="plant-tag">Flores amarillas</span>
+                    <span class="plant-tag">Ebanistería</span>
+                </div>
+                <div class="usos">
+                    <strong>Usos:</strong> Madera muy dura para construcción naval y ebanistería fina.
+                </div>
+            </div>
+        </article>
+
+        <!-- Planta 6: Carate -->
+        <article class="planta-card">
+            <div class="planta-imagen">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Astronium_graveolens_14zz.jpg" alt="Carate">
+                <span class="planta-badge">⚠️ En Peligro</span>
+            </div>
+            <div class="planta-info">
+                <h3>Carate</h3>
+                <p class="nombre-cientifico">Astronium graveolens</p>
+                <p class="descripcion">Árbol de 25-35m, madera rojiza muy resistente a la pudrición. Especie en peligro por sobreexplotación.</p>
+                <div class="plant-tags">
+                    <span class="plant-tag">Madera rojiza</span>
+                    <span class="plant-tag">En peligro</span>
+                    <span class="plant-tag">Pisos finos</span>
+                </div>
+                <div class="usos">
+                    <strong>Usos:</strong> Madera preciosa para muebles finos y pisos de alta calidad.
+                </div>
+            </div>
+        </article>
+
+        <!-- Planta 7: Espavé -->
+        <article class="planta-card">
+            <div class="planta-imagen">
+                <img src="https://www.ecured.cu/images/7/71/Espavel.jpg" alt="Espavé">
+                <span class="planta-badge">🌳 Pariente del Marañón</span>
+            </div>
+            <div class="planta-info">
+                <h3>Espavé</h3>
+                <p class="nombre-cientifico">Anacardium excelsum</p>
+                <p class="descripcion">Árbol gigante que alcanza hasta 45m. Pariente del marañón, produce frutos similares pero más pequeños.</p>
+                <div class="plant-tags">
+                    <span class="plant-tag">Hasta 45m</span>
+                    <span class="plant-tag">Frutos comestibles</span>
+                    <span class="plant-tag">Embarcaciones</span>
+                </div>
+                <div class="usos">
+                    <strong>Usos:</strong> Madera para embarcaciones artesanales, fruto comestible.
+                </div>
+            </div>
+        </article>
+
+        <!-- Planta 8: Jobo -->
+        <article class="planta-card">
+            <div class="planta-imagen">
+                <img src="https://www.elmundoforestal.com/wp-content/uploads/2020/09/jobo.jpg" alt="Jobo">
+                <span class="planta-badge">🍋 Frutos Comestibles</span>
+            </div>
+            <div class="planta-info">
+                <h3>Jobo</h3>
+                <p class="nombre-cientifico">Spondias mombin</p>
+                <p class="descripcion">Árbol de 15-25m que produce frutos amarillos comestibles de sabor agridulce. Muy popular en la región.</p>
+                <div class="plant-tags">
+                    <span class="plant-tag">Frutos agridulces</span>
+                    <span class="plant-tag">Jugos</span>
+                    <span class="plant-tag">Medicinal</span>
+                </div>
+                <div class="usos">
+                    <strong>Usos:</strong> Fruto consumido fresco, en jugos y dulces. Medicinal para problemas digestivos.
+                </div>
+            </div>
+        </article>
+
+    </section>
+
+    <!-- SECCIÓN DE COMPROMISO -->
+    <section class="compromiso-section">
+        <div class="compromiso-contenido">
+            <h2>Protegiendo los Bosques Secos</h2>
+            <p>
+                Los bosques tropicales secos de Panamá Oeste son ecosistemas únicos y amenazados. 
+                Trabajamos para conservar estas especies adaptadas a condiciones extremas y promover 
+                su reforestación en áreas degradadas.
+            </p>
+            <div class="compromiso-acciones">
+                <a href="#contacto" class="btn-secundario">Únete a la Conservación</a>
+                <a href="#donaciones" class="btn-secundario">Apoya Nuestra Labor</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER CORPORATIVO -->
+    <footer class="footer-profesional">
+        <div class="footer-contenido">
+            <div class="footer-columna">
+                <h3>EcoPanamá Oeste</h3>
+                <p>
+                    Organización dedicada a la conservación de ecosistemas y la 
+                    promoción del desarrollo sostenible en Panamá Oeste.
+                </p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon" aria-label="Facebook">f</a>
+                    <a href="#" class="social-icon" aria-label="Twitter">𝕏</a>
+                    <a href="#" class="social-icon" aria-label="Instagram">📷</a>
+                    <a href="#" class="social-icon" aria-label="LinkedIn">in</a>
+                </div>
+            </div>
+
+            <div class="footer-columna">
+                <h3>Ecosistemas</h3>
+                <ul>
+                    <li><a href="BTH.html">Bosques Húmedos</a></li>
+                    <li><a href="BTS.HTML">Bosques Secos</a></li>
+                    <li><a href="Mang.html">Manglares</a></li>
+                    <li><a href="RAD.html">Agua Dulce</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-columna">
+                <h3>Recursos</h3>
+                <ul>
+                    <li><a href="#educacion">Educación Ambiental</a></li>
+                    <li><a href="#investigacion">Investigación</a></li>
+                    <li><a href="#publicaciones">Publicaciones</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-columna">
+                <h3>Contacto</h3>
+                <p>📍 Panamá Oeste, Panamá</p>
+                <p>📧 info@ecopanama-oeste.org</p>
+                <p>📞 +507 1234-5678</p>
+                <p>🕐 Lun - Vie: 8:00 AM - 5:00 PM</p>
+            </div>
         </div>
 
-        <!-- Grid de Plantas -->
-        <section class="plantas-grid">
-            
-            <!-- Planta 1: Guácimo -->
-            <div class="planta-card">
-                <div class="planta-imagen">
-                    <img src="https://a.storyblok.com/f/160385/890x605/d3ec670ad8/guacimo-ganaderia.jpg" alt="Guácimo">
-                </div>
-                <div class="planta-info">
-                    <h3>Guácimo</h3>
-                    <p class="nombre-cientifico">Guazuma ulmifolia</p>
-                    <p class="descripcion">Árbol de 10-20m de altura, con flores pequeñas amarillas y frutos comestibles negros. Muy común en áreas alteradas.</p>
-                    <div class="usos">
-                        <strong>Usos:</strong> Medicinal, forraje para ganado, madera para construcción rural.
-                    </div>
-                </div>
-            </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 EcoPanamá Oeste. Todos los derechos reservados. | <a href="#privacidad">Política de Privacidad</a> | <a href="#terminos">Términos de Uso</a></p>
+        </div>
+    </footer>
 
-            <!-- Planta 2: Roble de Sabana -->
-            <div class="planta-card">
-                <div class="planta-imagen">
-                    <img src="https://miambiente.gob.pa/wp-content/uploads/2023/04/Paisajes-encantados-con-la-floracion-del-roble-8.jpg" alt="Roble de Sabana">
-                </div>
-                <div class="planta-info">
-                    <h3>Roble de Sabana</h3>
-                    <p class="nombre-cientifico">Tabebuia rosea</p>
-                    <p class="descripcion">Árbol emblemático de Panamá, alcanza hasta 30m. Sus flores rosadas espectaculares aparecen en la época seca.</p>
-                    <div class="usos">
-                        <strong>Usos:</strong> Árbol nacional de Panamá, madera preciosa, ornamental.
-                    </div>
-                </div>
-            </div>
+    <script>
+        // Animación suave al hacer scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
 
-            <!-- Planta 3: Cedro Espino -->
-            <div class="planta-card">
-                <div class="planta-imagen">
-                    <img src="https://static.wixstatic.com/media/e6eb07_ac85d3e11def46bdae2de21696800f6c~mv2.jpg/v1/fill/w_620,h_655,al_c,q_85,enc_avif,quality_auto/e6eb07_ac85d3e11def46bdae2de21696800f6c~mv2.jpg" alt="Cedro Espino">
-                </div>
-                <div class="planta-info">
-                    <h3>Cedro Espino</h3>
-                    <p class="nombre-cientifico">Pachira quinata</p>
-                    <p class="descripcion">Árbol de 15-25m con tronco cubierto de espinas cónicas. Flores blancas grandes y vistosas.</p>
-                    <div class="usos">
-                        <strong>Usos:</strong> Madera para construcción, cercas vivas, ornamental.
-                    </div>
-                </div>
-            </div>
+        // Efecto parallax sutil en hero
+        window.addEventListener('scroll', () => {
+            const hero = document.querySelector('.hero-section-bth');
+            const scrolled = window.pageYOffset;
+            if (hero && scrolled < hero.offsetHeight) {
+                hero.style.transform = `translateY(${scrolled * 0.5}px)`;
+            }
+        });
 
-            <!-- Planta 4: Javillo -->
-            <div class="planta-card">
-                <div class="planta-imagen">
-                    <img src="https://www.elmundoforestal.com/wp-content/uploads/2020/09/jabillo.jpg" alt="Javillo">
-                </div>
-                <div class="planta-info">
-                    <h3>Javillo</h3>
-                    <p class="nombre-cientifico">Hura crepitans</p>
-                    <p class="descripcion">Árbol gigante de hasta 40m, tronco con espinas. Frutos que explotan al madurar dispersando semillas.</p>
-                    <div class="usos">
-                        <strong>Usos:</strong> Madera liviana para canoas, medicinal (tóxico, usar con precaución).
-                    </div>
-                </div>
-            </div>
+        // Lazy loading para imágenes
+        if ('IntersectionObserver' in window) {
+            const imageObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        img.classList.add('loaded');
+                        observer.unobserve(img);
+                    }
+                });
+            });
 
-            <!-- Planta 5: Guayacán -->
-            <div class="planta-card">
-                <div class="planta-imagen">
-                    <img src="https://noticiasncc.com/wp-content/uploads/2022/02/Guayacan-Ciudad-de-Panama.jpg" alt="Guayacán">
-                </div>
-                <div class="planta-info">
-                    <h3>Guayacán</h3>
-                    <p class="nombre-cientifico">Handroanthus guayacan</p>
-                    <p class="descripcion">Árbol de 20-30m con flores amarillas brillantes que aparecen cuando está sin hojas. Madera extremadamente dura.</p>
-                    <div class="usos">
-                        <strong>Usos:</strong> Madera muy dura para construcción naval y ebanistería fina.
-                    </div>
-                </div>
-            </div>
-
-            <!-- Planta 6: Carate -->
-            <div class="planta-card">
-                <div class="planta-imagen">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Astronium_graveolens_14zz.jpg" alt="Carate">
-                </div>
-                <div class="planta-info">
-                    <h3>Carate</h3>
-                    <p class="nombre-cientifico">Astronium graveolens</p>
-                    <p class="descripcion">Árbol de 25-35m, madera rojiza muy resistente a la pudrición. Especie en peligro por sobreexplotación.</p>
-                    <div class="usos">
-                        <strong>Usos:</strong> Madera preciosa para muebles finos y pisos de alta calidad.
-                    </div>
-                </div>
-            </div>
-
-            <!-- Planta 7: Espavé -->
-            <div class="planta-card">
-                <div class="planta-imagen">
-                    <img src="https://www.ecured.cu/images/7/71/Espavel.jpg" alt="Espavé">
-                </div>
-                <div class="planta-info">
-                    <h3>Espavé</h3>
-                    <p class="nombre-cientifico">Anacardium excelsum</p>
-                    <p class="descripcion">Árbol gigante que alcanza hasta 45m. Pariente del marañón, produce frutos similares pero más pequeños.</p>
-                    <div class="usos">
-                        <strong>Usos:</strong> Madera para embarcaciones artesanales, fruto comestible.
-                    </div>
-                </div>
-            </div>
-
-            <!-- Planta 8: Jobo -->
-            <div class="planta-card">
-                <div class="planta-imagen">
-                    <img src="https://www.elmundoforestal.com/wp-content/uploads/2020/09/jobo.jpg" alt="Jobo">
-                </div>
-                <div class="planta-info">
-                    <h3>Jobo</h3>
-                    <p class="nombre-cientifico">Spondias mombin</p>
-                    <p class="descripcion">Árbol de 15-25m que produce frutos amarillos comestibles de sabor agridulce. Muy popular en la región.</p>
-                    <div class="usos">
-                        <strong>Usos:</strong> Fruto consumido fresco, en jugos y dulces. Medicinal para problemas digestivos.
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-        <!-- Footer -->
-        <footer class="footer">
-            <p> Conservemos los Bosques Tropicales Secos de Panamá Oeste </p>
-            <p class="footer-small">Información recopilada sobre la flora característica de la región</p>
-        </footer>
-    </div>
+            document.querySelectorAll('.planta-imagen img, .carrusel-slide img').forEach(img => {
+                imageObserver.observe(img);
+            });
+        }
+    </script>
 </body>
 </html>
-
-
-
