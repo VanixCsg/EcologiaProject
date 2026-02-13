@@ -3,235 +3,451 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flora de Agua Dulce - Panamá Oeste</title>
-    <link rel="stylesheet" href="../Ecosistemas/css/BTH.CSS">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+    <title>Ecosistemas de Agua Dulce - Flora de Panamá Oeste</title>
+    <!-- MISMO CSS QUE USAN BTH, BTS Y MANG -->
+    <link rel="stylesheet" href="../Ecosistemas/css/BTH.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Botón de regreso -->
-    <a href="O.D.E.html" class="btn-volver">← Volver al Menu</a>
-    
-    <div class="container">
-        <!-- Header -->
-        <header class="header">
-            <h1>FLORA AGUA DULCE</h1>
-            <p class="subtitulo">Panamá Oeste</p>
-        </header>
+    <!-- HEADER CORPORATIVO -->
+    <header class="header-profesional">
+        <div class="header-contenido">
+            <a href="../index.html" class="logo-empresa">
+                <div class="logo-icono">🌿</div>
+                <div class="logo-texto">
+                    <h1>Ecosistema de Panamá Oeste</h1>
+                    <p>Conservación y Biodiversidad</p>
+                </div>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="O.D.E.html">Ecosistemas</a></li>
+                    <li><a href="../Fauna/O.D.F.html">Faunas</a></li>
+                    <li><a href="../Especies Extintas/M.E.E.html">Especies Extintas</a></li>
+                    <li><a href="../Areas Protegidas/AP.html">Áreas Protegidas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-        <!-- Carrusel de Imágenes -->
-        <section class="carrusel-container">
-            <div class="carrusel">
-                <div class="carrusel-slide">
-                    <img src="https://bayanodigital.com/wp-content/uploads/2020/08/Cuenca-del-r%C3%ADo-Caimito.jpg" alt="Río Ciri Grande">
-                </div>
-                <div class="carrusel-slide">
-                    <img src="https://miambiente.gob.pa/wp-content/uploads/2024/01/MiAMBIENTE-Panama-Oeste-realiza-aforos-en-el-rio-Chame-ante-la-llegada-del-Fenomeno-del-Nino-Evento-ENOS-1-scaled.jpg" alt="Vegetación ribereña">
-                </div>
-                <div class="carrusel-slide">
-                    <img src="https://elfarodelcanal.com/wp-content/uploads/2021/02/donde-nace-el-agua-canal-de-panama-02.jpg" alt="Bosque galería">
-                </div>
-                <div class="carrusel-slide">
-                    <img src="https://www.entremespanamaoeste.com/wp-content/uploads/elementor/thumbs/20230819_102411-1-qcefjh6lw7bnjogj8qvkhm1qws8eb3020bd1n6t9b2.jpg" alt="Árboles ribereños">
-                </div>
-                <div class="carrusel-slide">
-                    <img src="https://recorriendopanama.com/wp-content/uploads/2018/12/cascada-nativa.jpg?w=1024.jpg" alt="Plantas acuáticas">
-                </div>
-                <!-- Repetición para efecto infinito -->
-                <div class="carrusel-slide">
-                    <img src="https://bayanodigital.com/wp-content/uploads/2020/08/Cuenca-del-r%C3%ADo-Caimito.jpg" alt="Río Ciri Grande">
-                </div>
-                <div class="carrusel-slide">
-                    <img src="https://miambiente.gob.pa/wp-content/uploads/2024/01/MiAMBIENTE-Panama-Oeste-realiza-aforos-en-el-rio-Chame-ante-la-llegada-del-Fenomeno-del-Nino-Evento-ENOS-1-scaled.jpg" alt="Vegetación ribereña">
-                </div>
-                <div class="carrusel-slide">
-                    <img src="https://elfarodelcanal.com/wp-content/uploads/2021/02/donde-nace-el-agua-canal-de-panama-02.jpg" alt="Bosque galería">
-                </div>
-                <div class="carrusel-slide">
-                    <img src="https://www.entremespanamaoeste.com/wp-content/uploads/elementor/thumbs/20230819_102411-1-qcefjh6lw7bnjogj8qvkhm1qws8eb3020bd1n6t9b2.jpg" alt="Árboles ribereños">
-                </div>
-                <div class="carrusel-slide">
-                    <img src="https://recorriendopanama.com/wp-content/uploads/2018/12/cascada-nativa.jpg?w=1024.JPG" alt="Plantas acuáticas">
-                </div>
-            </div>
-            <div class="carrusel-descripcion">
-                <p>Flora característica de los ríos y ecosistemas de agua dulce de Panamá Oeste</p>
-            </div>
-        </section>
+    <!-- BREADCRUMB -->
+    <nav class="breadcrumb">
+        <a href="O.D.E.html">Ecosistemas</a>
+        <span>›</span>
+        <span>Agua Dulce</span>
+    </nav>
 
-        <!-- Información General -->
-        <section class="info-general">
-            <div class="info-content">
-                <h2>Información General</h2>
-                <p>Los <strong>ecosistemas de agua dulce de Panamá Oeste</strong> incluyen ríos permanentes como el <strong>Río Ciri Grande, Río Chame y Río San Carlos</strong>, así como quebradas, riachuelos y zonas riparias. La flora en estos ecosistemas está adaptada a condiciones de inundación temporal, suelos húmedos y fluctuaciones estacionales.</p>
-                
-                <div class="caracteristicas-grid">
-                    <div class="caracteristica">
-                        <span class="icono"></span>
-                        <h3>Ríos Principales</h3>
-                        <p>5+ sistemas</p>
-                    </div>
-                    <div class="caracteristica">
-                        <span class="icono"></span>
-                        <h3>Bosques Galería</h3>
-                        <p>Zonas riparias</p>
-                    </div>
-                    <div class="caracteristica">
-                        <span class="icono"></span>
-                        <h3>Plantas Acuáticas</h3>
-                        <p>15+ especies</p>
-                    </div>
-                    <div class="caracteristica">
-                        <span class="icono"></span>
-                        <h3>Humedales</h3>
-                        <p>Naturales y artificiales</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <!-- HERO SECTION - AGUA DULCE (usando la misma clase hero-section-bth) -->
+    <section class="hero-section-bth" style="background: linear-gradient(135deg, rgba(0,0,0,0.95) 0%, rgba(10,10,10,0.9) 50%, rgba(0,0,0,0.95) 100%), url('https://bayanodigital.com/wp-content/uploads/2020/08/Cuenca-del-r%C3%ADo-Caimito.jpg') center/cover;">
+        <div class="hero-overlay"></div>
+        <div class="hero-contenido">
+            <h1 class="hero-titulo">Ecosistemas de Agua Dulce</h1>
+            <p class="hero-subtitulo">
+                Descubre la flora que habita en ríos, quebradas y humedales de 
+                Panamá Oeste, esencial para la conservación del agua y la biodiversidad
+            </p>
+        </div>
+    </section>
 
-        <!-- Título de Plantas -->
-        <div class="seccion-titulo">
-            <h2>Flora Característica</h2>
-            <p>Principales especies vegetales de los ecosistemas de agua dulce</p>
+    <!-- CARRUSEL DE IMÁGENES -->
+    <section class="carrusel-container">
+        <div class="carrusel">
+            <!-- PRIMERA COPIA -->
+            <div class="carrusel-slide">
+                <img src="https://bayanodigital.com/wp-content/uploads/2020/08/Cuenca-del-r%C3%ADo-Caimito.jpg" alt="Río Ciri Grande">
+            </div>
+            <div class="carrusel-slide">
+                <img src="https://miambiente.gob.pa/wp-content/uploads/2024/01/MiAMBIENTE-Panama-Oeste-realiza-aforos-en-el-rio-Chame-ante-la-llegada-del-Fenomeno-del-Nino-Evento-ENOS-1-scaled.jpg" alt="Vegetación ribereña">
+            </div>
+            <div class="carrusel-slide">
+                <img src="https://elfarodelcanal.com/wp-content/uploads/2021/02/donde-nace-el-agua-canal-de-panama-02.jpg" alt="Bosque galería">
+            </div>
+            <div class="carrusel-slide">
+                <img src="https://www.entremespanamaoeste.com/wp-content/uploads/elementor/thumbs/20230819_102411-1-qcefjh6lw7bnjogj8qvkhm1qws8eb3020bd1n6t9b2.jpg" alt="Árboles ribereños">
+            </div>
+            <div class="carrusel-slide">
+                <img src="https://recorriendopanama.com/wp-content/uploads/2018/12/cascada-nativa.jpg?w=1024.jpg" alt="Plantas acuáticas">
+            </div>
+            <!-- SEGUNDA COPIA -->
+            <div class="carrusel-slide">
+                <img src="https://bayanodigital.com/wp-content/uploads/2020/08/Cuenca-del-r%C3%ADo-Caimito.jpg" alt="Río Ciri Grande">
+            </div>
+            <div class="carrusel-slide">
+                <img src="https://miambiente.gob.pa/wp-content/uploads/2024/01/MiAMBIENTE-Panama-Oeste-realiza-aforos-en-el-rio-Chame-ante-la-llegada-del-Fenomeno-del-Nino-Evento-ENOS-1-scaled.jpg" alt="Vegetación ribereña">
+            </div>
+            <div class="carrusel-slide">
+                <img src="https://elfarodelcanal.com/wp-content/uploads/2021/02/donde-nace-el-agua-canal-de-panama-02.jpg" alt="Bosque galería">
+            </div>
+            <div class="carrusel-slide">
+                <img src="https://www.entremespanamaoeste.com/wp-content/uploads/elementor/thumbs/20230819_102411-1-qcefjh6lw7bnjogj8qvkhm1qws8eb3020bd1n6t9b2.jpg" alt="Árboles ribereños">
+            </div>
+            <div class="carrusel-slide">
+                <img src="https://recorriendopanama.com/wp-content/uploads/2018/12/cascada-nativa.jpg?w=1024.JPG" alt="Plantas acuáticas">
+            </div>
+        </div>
+        <div class="carrusel-descripcion">
+            <p>Flora característica de los ríos y ecosistemas de agua dulce de Panamá Oeste</p>
+        </div>
+    </section>
+
+    <!-- INFORMACIÓN GENERAL -->
+    <section class="intro-section">
+        <h2>Información General del Ecosistema</h2>
+        <p>
+            Los <strong>ecosistemas de agua dulce de Panamá Oeste</strong> incluyen ríos permanentes como el 
+            <strong>Río Ciri Grande, Río Chame y Río San Carlos</strong>, así como quebradas, riachuelos y zonas riparias. 
+            La flora en estos ecosistemas está adaptada a condiciones de inundación temporal, suelos húmedos y fluctuaciones estacionales.
+        </p>
+
+        <!-- CARACTERÍSTICAS EN GRID -->
+        <div class="caracteristicas-grid">
+            <div class="caracteristica">
+                <span class="icono">🌊</span>
+                <h3>Ríos Principales</h3>
+                <p>5+ sistemas</p>
+            </div>
+            <div class="caracteristica">
+                <span class="icono">🌳</span>
+                <h3>Bosques Galería</h3>
+                <p>Zonas riparias</p>
+            </div>
+            <div class="caracteristica">
+                <span class="icono">🌿</span>
+                <h3>Plantas Acuáticas</h3>
+                <p>15+ especies</p>
+            </div>
+            <div class="caracteristica">
+                <span class="icono">💧</span>
+                <h3>Humedales</h3>
+                <p>Naturales y artificiales</p>
+            </div>
         </div>
 
-        <!-- Grid de Plantas -->
-        <section class="plantas-grid">
-            
-            <!-- Planta 1: Guácimo -->
-            <div class="planta-card">
-                <div class="planta-imagen">
-                    <img src="https://a.storyblok.com/f/160385/890x605/d3ec670ad8/guacimo-ganaderia.jpg" alt="Guácimo">
+        <!-- IMPORTANCIA ECOLÓGICA (usando estilo de usos pero adaptado) -->
+        <div style="margin-top: 40px;">
+            <h3 style="color: var(--color-acento); margin-bottom: 20px; font-size: 1.8rem;">💧 Importancia de los Ecosistemas de Agua Dulce</h3>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+                <div class="usos" style="border-left-color: #00ff88;">
+                    <strong>Regulación Hídrica:</strong> Mantienen el caudal de ríos y previenen inundaciones
                 </div>
-                <div class="planta-info">
-                    <h3>Guácimo</h3>
-                    <p class="nombre-cientifico">Guazuma ulmifolia</p>
-                    <p class="descripcion">Árbol común en bordes de ríos y quebradas, de 10-20m de altura. Tolera inundaciones temporales y suelos húmedos. Frutos comestibles negros consumidos por fauna silvestre.</p>
-                    <div class="usos">
-                        <strong>Hábitat:</strong> Riberas de ríos • <strong>Altura:</strong> 10-20m • <strong>Estado:</strong> Muy común
-                    </div>
+                <div class="usos" style="border-left-color: #00ff88;">
+                    <strong>Filtración Natural:</strong> La vegetación riparia filtra sedimentos y contaminantes
                 </div>
-            </div>
-
-            <!-- Planta 2: Javillo -->
-            <div class="planta-card">
-                <div class="planta-imagen">
-                    <img src="https://www.elmundoforestal.com/wp-content/uploads/2020/09/jabillo.jpg" alt="Javillo">
+                <div class="usos" style="border-left-color: #00ff88;">
+                    <strong>Corredores Biológicos:</strong> Conectan diferentes ecosistemas y permiten migración de especies
                 </div>
-                <div class="planta-info">
-                    <h3>Javillo</h3>
-                    <p class="nombre-cientifico">Hura crepitans</p>
-                    <p class="descripcion">Árbol gigante de hasta 40m que crece en suelos aluviales cerca de ríos. Tronco con espinas características. Frutos que explotan al madurar dispersando semillas.</p>
-                    <div class="usos">
-                        <strong>Hábitat:</strong> Suelos aluviales • <strong>Altura:</strong> 25-40m • <strong>Adaptación:</strong> Dispersión explosiva
-                    </div>
+                <div class="usos" style="border-left-color: #00ff88;">
+                    <strong>Fuente de Agua:</strong> Proveen agua potable para comunidades y agricultura
                 </div>
             </div>
+        </div>
+    </section>
 
-            <!-- Planta 3: Espavé -->
-            <div class="planta-card">
-                <div class="planta-imagen">
-                    <img src="https://www.ecured.cu/images/7/71/Espavel.jpg" alt="Espavé">
-                </div>
-                <div class="planta-info">
-                    <h3>Espavé</h3>
-                    <p class="nombre-cientifico">Anacardium excelsum</p>
-                    <p class="descripcion">Árbol gigante que alcanza hasta 45m, común en vegas de ríos. Pariente del marañón, produce frutos similares pero más pequeños. Sistema radical profundo.</p>
-                    <div class="usos">
-                        <strong>Hábitat:</strong> Vegas de ríos • <strong>Altura:</strong> 30-45m • <strong>Importancia:</strong> Sombrío y frutos
-                    </div>
-                </div>
-            </div>
-
-            <!-- Planta 4: Jobo -->
-            <div class="planta-card">
-                <div class="planta-imagen">
-                    <img src="https://www.elmundoforestal.com/wp-content/uploads/2020/09/jobo.jpg" alt="Jobo">
-                </div>
-                <div class="planta-info">
-                    <h3>Jobo</h3>
-                    <p class="nombre-cientifico">Spondias mombin</p>
-                    <p class="descripcion">Árbol de 15-25m común en zonas riparias. Produce frutos amarillos comestibles de sabor agridulce muy apreciados. Florece durante la estación seca.</p>
-                    <div class="usos">
-                        <strong>Hábitat:</strong> Zonas riparias • <strong>Fruto:</strong> Comestible • <strong>Floración:</strong> Estación seca
-                    </div>
-                </div>
-            </div>
-
-            <!-- Planta 5: Corotú -->
-            <div class="planta-card">
-                <div class="planta-imagen">
-                    <img src="https://tropicalforages.info/images/entities/enterolobium_cyclocarpum/ec_30.jpg" alt="Corotú">
-                </div>
-                <div class="planta-info">
-                    <h3>Corotú</h3>
-                    <p class="nombre-cientifico">Enterolobium cyclocarpum</p>
-                    <p class="descripcion">Árbol de gran tamaño con copa amplia y frutos en forma de oreja. Crece en suelos aluviales fértiles. Las semillas flotan en el agua para dispersión.</p>
-                    <div class="usos">
-                        <strong>Hábitat:</strong> Suelos aluviales • <strong>Fruto:</strong> Forma de oreja • <strong>Dispersión:</strong> Hidrócora
-                    </div>
-                </div>
-            </div>
-
-            <!-- Planta 6: Sangrillo -->
-            <div class="planta-card">
-                <div class="planta-imagen">
-                    <img src="https://www.elmundoforestal.com/wp-content/uploads/2020/09/sangrillo.jpg" alt="Sangrillo">
-                </div>
-                <div class="planta-info">
-                    <h3>Sangrillo</h3>
-                    <p class="nombre-cientifico">Pterocarpus officinalis</p>
-                    <p class="descripcion">Árbol que crece en zonas inundables y pantanos de agua dulce. Presenta raíces aéreas (neumatóforos) para respirar en suelos anegados. Savia rojiza.</p>
-                    <div class="usos">
-                        <strong>Hábitat:</strong> Zonas inundables • <strong>Adaptación:</strong> Neumatóforos • <strong>Savia:</strong> Roja
-                    </div>
-                </div>
-            </div>
-
-            <!-- Planta 7: Loto Acuático -->
-            <div class="planta-card">
-                <div class="planta-imagen">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_b6mzq_hQlM58TAA_ehXZETlgZPx-aUKGIA&s.JPG" alt="Loto acuático">
-                </div>
-                <div class="planta-info">
-                    <h3>Loto Acuático</h3>
-                    <p class="nombre-cientifico">Nymphaea spp.</p>
-                    <p class="descripcion">Planta acuática con hojas flotantes circulares y flores vistosas blancas o rosadas. Crece en remansos de ríos y cuerpos de agua lentos. Raíces en el fondo.</p>
-                    <div class="usos">
-                        <strong>Hábitat:</strong> Aguas lentas • <strong>Flor:</strong> Vistosa • <strong>Importancia:</strong> Ornamental
-                    </div>
-                </div>
-            </div>
-
-            <!-- Planta 8: Junco -->
-            <div class="planta-card">
-                <div class="planta-imagen">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Cyperus_diffusus1.jpg" alt="Junco">
-                </div>
-                <div class="planta-info">
-                    <h3>Junco</h3>
-                    <p class="nombre-cientifico">Cyperus spp.</p>
-                    <p class="descripcion">Planta herbácea que crece en bordes de ríos y zonas pantanosas. Tallos triangulares característicos. Forma densas colonias que estabilizan márgenes.</p>
-                    <div class="usos">
-                        <strong>Hábitat:</strong> Bordes de agua • <strong>Tallo:</strong> Triangular • <strong>Función:</strong> Estabilización
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-        
-
-        <!-- Footer -->
-        <footer class="footer">
-            <p>Conservemos la Flora de Nuestros Ríos y Quebradas</p>
-            <p class="footer-small">La vegetación riparia es esencial para mantener la calidad del agua y la biodiversidad acuática</p>
-        </footer>
+    <!-- HEADER DE FLORA -->
+    <div class="section-header">
+        <h2>Flora Característica</h2>
+        <p>Principales especies vegetales de los ecosistemas de agua dulce de Panamá Oeste</p>
     </div>
+
+    <!-- GRID DE PLANTAS (MISMA ESTRUCTURA QUE BTH/BTS/MANG) -->
+    <section class="plantas-grid">
+        
+        <!-- Planta 1: Guácimo -->
+        <article class="planta-card">
+            <div class="planta-imagen">
+                <img src="https://a.storyblok.com/f/160385/890x605/d3ec670ad8/guacimo-ganaderia.jpg" alt="Guácimo">
+                <span class="planta-badge">🌳 Ribereño</span>
+            </div>
+            <div class="planta-info">
+                <h3>Guácimo</h3>
+                <p class="nombre-cientifico">Guazuma ulmifolia</p>
+                <p class="descripcion">Árbol común en bordes de ríos y quebradas, de 10-20m de altura. Tolera inundaciones temporales y suelos húmedos. Frutos comestibles negros consumidos por fauna silvestre.</p>
+                <div class="plant-tags">
+                    <span class="plant-tag">Riberas de ríos</span>
+                    <span class="plant-tag">10-20m</span>
+                    <span class="plant-tag">Muy común</span>
+                </div>
+                <div class="usos">
+                    <strong>Hábitat:</strong> Zonas riparias, tolera inundaciones temporales. Frutos atractivos para fauna.
+                </div>
+            </div>
+        </article>
+
+        <!-- Planta 2: Javillo -->
+        <article class="planta-card">
+            <div class="planta-imagen">
+                <img src="https://www.elmundoforestal.com/wp-content/uploads/2020/09/jabillo.jpg" alt="Javillo">
+                <span class="planta-badge">💥 Frutos Explosivos</span>
+            </div>
+            <div class="planta-info">
+                <h3>Javillo</h3>
+                <p class="nombre-cientifico">Hura crepitans</p>
+                <p class="descripcion">Árbol gigante de hasta 40m que crece en suelos aluviales cerca de ríos. Tronco con espinas características. Frutos que explotan al madurar dispersando semillas.</p>
+                <div class="plant-tags">
+                    <span class="plant-tag">Suelos aluviales</span>
+                    <span class="plant-tag">25-40m</span>
+                    <span class="plant-tag">Dispersión explosiva</span>
+                </div>
+                <div class="usos">
+                    <strong>Adaptación:</strong> Frutos explosivos para dispersión. Tronco espinoso característico.
+                </div>
+            </div>
+        </article>
+
+        <!-- Planta 3: Espavé -->
+        <article class="planta-card">
+            <div class="planta-imagen">
+                <img src="https://www.ecured.cu/images/7/71/Espavel.jpg" alt="Espavé">
+                <span class="planta-badge">🌳 Vegas de Ríos</span>
+            </div>
+            <div class="planta-info">
+                <h3>Espavé</h3>
+                <p class="nombre-cientifico">Anacardium excelsum</p>
+                <p class="descripcion">Árbol gigante que alcanza hasta 45m, común en vegas de ríos. Pariente del marañón, produce frutos similares pero más pequeños. Sistema radical profundo.</p>
+                <div class="plant-tags">
+                    <span class="plant-tag">Vegas de ríos</span>
+                    <span class="plant-tag">30-45m</span>
+                    <span class="plant-tag">Frutos comestibles</span>
+                </div>
+                <div class="usos">
+                    <strong>Importancia:</strong> Proporciona sombra a cursos de agua, frutos consumidos por fauna.
+                </div>
+            </div>
+        </article>
+
+        <!-- Planta 4: Jobo -->
+        <article class="planta-card">
+            <div class="planta-imagen">
+                <img src="https://www.elmundoforestal.com/wp-content/uploads/2020/09/jobo.jpg" alt="Jobo">
+                <span class="planta-badge">🍋 Frutos Comestibles</span>
+            </div>
+            <div class="planta-info">
+                <h3>Jobo</h3>
+                <p class="nombre-cientifico">Spondias mombin</p>
+                <p class="descripcion">Árbol de 15-25m común en zonas riparias. Produce frutos amarillos comestibles de sabor agridulce muy apreciados. Florece durante la estación seca.</p>
+                <div class="plant-tags">
+                    <span class="plant-tag">Zonas riparias</span>
+                    <span class="plant-tag">Fruto comestible</span>
+                    <span class="plant-tag">Floración seca</span>
+                </div>
+                <div class="usos">
+                    <strong>Usos:</strong> Frutos consumidos frescos y en bebidas. Atrae aves y mamíferos.
+                </div>
+            </div>
+        </article>
+
+        <!-- Planta 5: Corotú -->
+        <article class="planta-card">
+            <div class="planta-imagen">
+                <img src="https://tropicalforages.info/images/entities/enterolobium_cyclocarpum/ec_30.jpg" alt="Corotú">
+                <span class="planta-badge">🌱 Dispersión Hidrócora</span>
+            </div>
+            <div class="planta-info">
+                <h3>Corotú</h3>
+                <p class="nombre-cientifico">Enterolobium cyclocarpum</p>
+                <p class="descripcion">Árbol de gran tamaño con copa amplia y frutos en forma de oreja. Crece en suelos aluviales fértiles. Las semillas flotan en el agua para dispersión.</p>
+                <div class="plant-tags">
+                    <span class="plant-tag">Suelos aluviales</span>
+                    <span class="plant-tag">Fruto en oreja</span>
+                    <span class="plant-tag">Hidrócora</span>
+                </div>
+                <div class="usos">
+                    <strong>Adaptación:</strong> Semillas flotantes dispersadas por corrientes de agua. Madera valiosa.
+                </div>
+            </div>
+        </article>
+
+        <!-- Planta 6: Sangrillo -->
+        <article class="planta-card">
+            <div class="planta-imagen">
+                <img src="https://www.elmundoforestal.com/wp-content/uploads/2020/09/sangrillo.jpg" alt="Sangrillo">
+                <span class="planta-badge">🩸 Savia Roja</span>
+            </div>
+            <div class="planta-info">
+                <h3>Sangrillo</h3>
+                <p class="nombre-cientifico">Pterocarpus officinalis</p>
+                <p class="descripcion">Árbol que crece en zonas inundables y pantanos de agua dulce. Presenta raíces aéreas (neumatóforos) para respirar en suelos anegados. Savia rojiza.</p>
+                <div class="plant-tags">
+                    <span class="plant-tag">Zonas inundables</span>
+                    <span class="plant-tag">Neumatóforos</span>
+                    <span class="plant-tag">Savia roja</span>
+                </div>
+                <div class="usos">
+                    <strong>Adaptación:</strong> Neumatóforos para respirar en suelos anegados. Savia usada medicinalmente.
+                </div>
+            </div>
+        </article>
+
+        <!-- Planta 7: Loto Acuático -->
+        <article class="planta-card">
+            <div class="planta-imagen">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_b6mzq_hQlM58TAA_ehXZETlgZPx-aUKGIA&s.JPG" alt="Loto acuático">
+                <span class="planta-badge">🌸 Hojas Flotantes</span>
+            </div>
+            <div class="planta-info">
+                <h3>Loto Acuático</h3>
+                <p class="nombre-cientifico">Nymphaea spp.</p>
+                <p class="descripcion">Planta acuática con hojas flotantes circulares y flores vistosas blancas o rosadas. Crece en remansos de ríos y cuerpos de agua lentos. Raíces en el fondo.</p>
+                <div class="plant-tags">
+                    <span class="plant-tag">Aguas lentas</span>
+                    <span class="plant-tag">Flor vistosa</span>
+                    <span class="plant-tag">Ornamental</span>
+                </div>
+                <div class="usos">
+                    <strong>Importancia:</strong> Proporciona refugio a peces pequeños. Flores polinizadas por insectos.
+                </div>
+            </div>
+        </article>
+
+        <!-- Planta 8: Junco -->
+        <article class="planta-card">
+            <div class="planta-imagen">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Cyperus_diffusus1.jpg" alt="Junco">
+                <span class="planta-badge">🌾 Estabilizador</span>
+            </div>
+            <div class="planta-info">
+                <h3>Junco</h3>
+                <p class="nombre-cientifico">Cyperus spp.</p>
+                <p class="descripcion">Planta herbácea que crece en bordes de ríos y zonas pantanosas. Tallos triangulares característicos. Forma densas colonias que estabilizan márgenes.</p>
+                <div class="plant-tags">
+                    <span class="plant-tag">Bordes de agua</span>
+                    <span class="plant-tag">Tallo triangular</span>
+                    <span class="plant-tag">Estabilización</span>
+                </div>
+                <div class="usos">
+                    <strong>Función:</strong> Estabiliza márgenes de ríos, previene erosión. Refugio para fauna pequeña.
+                </div>
+            </div>
+        </article>
+
+    </section>
+
+    <!-- SECCIÓN DE COMPROMISO -->
+    <section class="compromiso-section">
+        <div class="compromiso-contenido">
+            <h2>Protegiendo Nuestras Fuentes de Agua</h2>
+            <p>
+                Los ecosistemas de agua dulce de Panamá Oeste son vitales para el suministro de agua potable, 
+                la agricultura y la biodiversidad. La vegetación riparia protege los cauces, filtra contaminantes 
+                y mantiene la calidad del agua para las generaciones futuras.
+            </p>
+            <div class="compromiso-acciones">
+                <a href="#contacto" class="btn-secundario">Únete a la Conservación</a>
+                <a href="#donaciones" class="btn-secundario">Apoya Nuestra Labor</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER CORPORATIVO -->
+    <footer class="footer-profesional">
+        <div class="footer-contenido">
+            <div class="footer-columna">
+                <h3>EcoPanamá Oeste</h3>
+                <p>
+                    Organización dedicada a la conservación de ecosistemas y la 
+                    promoción del desarrollo sostenible en Panamá Oeste.
+                </p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon" aria-label="Facebook">f</a>
+                    <a href="#" class="social-icon" aria-label="Twitter">𝕏</a>
+                    <a href="#" class="social-icon" aria-label="Instagram">📷</a>
+                    <a href="#" class="social-icon" aria-label="LinkedIn">in</a>
+                </div>
+            </div>
+
+            <div class="footer-columna">
+                <h3>Ecosistemas</h3>
+                <ul>
+                    <li><a href="BTH.html">Bosques Húmedos</a></li>
+                    <li><a href="BTS.HTML">Bosques Secos</a></li>
+                    <li><a href="Mang.html">Manglares</a></li>
+                    <li><a href="RAD.html">Agua Dulce</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-columna">
+                <h3>Recursos</h3>
+                <ul>
+                    <li><a href="#educacion">Educación Ambiental</a></li>
+                    <li><a href="#investigacion">Investigación</a></li>
+                    <li><a href="#publicaciones">Publicaciones</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-columna">
+                <h3>Contacto</h3>
+                <p>📍 Panamá Oeste, Panamá</p>
+                <p>📧 info@ecopanama-oeste.org</p>
+                <p>📞 +507 1234-5678</p>
+                <p>🕐 Lun - Vie: 8:00 AM - 5:00 PM</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 EcoPanamá Oeste. Todos los derechos reservados. | 
+                <a href="#privacidad">Política de Privacidad</a> | 
+                <a href="#terminos">Términos de Uso</a> | 
+                La vegetación riparia es esencial para mantener la calidad del agua y la biodiversidad acuática
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Animación suave al hacer scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Efecto parallax sutil en hero
+        window.addEventListener('scroll', () => {
+            const hero = document.querySelector('.hero-section-bth');
+            const scrolled = window.pageYOffset;
+            if (hero && scrolled < hero.offsetHeight) {
+                hero.style.transform = `translateY(${scrolled * 0.5}px)`;
+            }
+        });
+
+        // Pausar carrusel al pasar el mouse
+        document.addEventListener('DOMContentLoaded', function() {
+            const carrusel = document.querySelector('.carrusel');
+            if (carrusel) {
+                carrusel.addEventListener('mouseenter', function() {
+                    this.style.animationPlayState = 'paused';
+                });
+                
+                carrusel.addEventListener('mouseleave', function() {
+                    this.style.animationPlayState = 'running';
+                });
+            }
+        });
+
+        // Lazy loading para imágenes
+        if ('IntersectionObserver' in window) {
+            const imageObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        img.classList.add('loaded');
+                        observer.unobserve(img);
+                    }
+                });
+            });
+
+            document.querySelectorAll('.planta-imagen img, .carrusel-slide img').forEach(img => {
+                imageObserver.observe(img);
+            });
+        }
+    </script>
 </body>
-
 </html>
-
-
-
-
