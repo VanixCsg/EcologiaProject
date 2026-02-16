@@ -1,3 +1,17 @@
+/* =========================
+   VARIABLES DE COLOR
+========================= */
+:root {
+  --neon-green: #2dff7a;
+  --dark-bg: #0b0f0d;
+  --dark-overlay: rgba(0, 0, 0, 0.7);
+  --text-light: #e8fdf0;
+  --soft-white: #d9fbe7;
+}
+
+/* =========================
+   RESET
+========================= */
 * {
   margin: 0;
   padding: 0;
@@ -6,229 +20,169 @@
 }
 
 body {
-  background-color: #f6f1e7;
-  color: #2f2f2f;
-}
-/* Botón Volver */
-.btn-volver {
-    display: inline-block;
-    background: rgba(255, 255, 255, 0.1);
-    color: #ffffff;
-    padding: 12px 24px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-weight: 600;
-    margin-bottom: 30px;
-    border: 2px solid rgba(255, 255, 255, 0.2);
-    transition: all 0.3s ease;
-    backdrop-filter: blur(10px);
+  background-color: var(--dark-bg);
+  color: var(--text-light);
 }
 
-.btn-volver:hover {
-    background: rgba(139, 195, 74, 0.3);
-    border-color: #8BC34A;
-    transform: translateX(-5px);
-}
-/* NAVBAR */
+/* =========================
+   NAVBAR
+========================= */
 .navbar {
-  position: absolute;
-  top: 20px;
+  position: fixed;
+  top: 0;
   width: 100%;
+  padding: 16px 60px;
   display: flex;
-  justify-content: center;
-  gap: 40px;
+  justify-content: space-between;
   align-items: center;
-  z-index: 10;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--neon-green);
+  z-index: 1000;
 }
 
 .navbar nav a {
-  color: #ffffff;
+  color: var(--soft-white);
+  margin-right: 24px;
   text-decoration: none;
-  margin: 0 10px;
-  font-size: 16px;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.navbar nav a:hover {
+  color: var(--neon-green);
 }
 
 .btn {
-  padding: 8px 18px;
-  border-radius: 20px;
-  border: none;
-  background: white;
+  padding: 10px 20px;
+  background: transparent;
+  border: 1px solid var(--neon-green);
+  color: var(--neon-green);
+  font-weight: 600;
+  border-radius: 30px;
   cursor: pointer;
-  font-size: 13px;
+  box-shadow: 0 0 10px rgba(45, 255, 122, 0.4);
+  transition: all 0.3s ease;
 }
 
-/* HERO */
+.btn:hover {
+  background: var(--neon-green);
+  color: #000;
+}
+
+/* =========================
+   HERO
+========================= */
 .hero {
   height: 100vh;
-  background:
-  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-  url("https://wallpapers.com/images/hd/green-leaves-background-39hzfg9nvuarivt1.jpg") center/cover no-repeat;
+  background: url("../img/hero-bg.jpg") center / cover no-repeat;
+  position: relative;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+/* Overlay oscuro para contraste */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.85)
+  );
+  z-index: 1;
 }
 
 .hero-box {
-  background: transparent; /* ← esto quita el fondo negro */
-  padding: 60px;
-  border-radius: 30px;
+  position: relative;
+  z-index: 2;
   text-align: center;
-  color: white;
-  width: 70%;
-  max-width: 900px;
-}
-.hero-box h1 {
-  font-size: 48px;
-  letter-spacing: 2px;
+  max-width: 800px;
 }
 
-.hero-box h1 span {
-  color: #b9ff6a;
+.hero h1 {
+  font-size: 4rem;
+  color: #ffffff;
+  line-height: 1.1;
 }
 
-.hero-box p {
-  margin: 20px 0;
-  font-size: 15px;
+.hero h1 span {
+  color: var(--neon-green);
+  text-shadow: 0 0 15px rgba(45, 255, 122, 0.6);
 }
 
-.btn.light {
-  background: #ffffff;
+.hero p {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: var(--soft-white);
 }
 
-/* ABOUT */
+/* =========================
+   SECCIÓN CLARA
+========================= */
 .about {
   padding: 80px 60px;
+  background: #f4f7f5;
+  color: #1e1e1e;
   text-align: center;
 }
 
 .about h2 {
+  font-size: 2.4rem;
   margin-bottom: 40px;
-  font-size: 28px;
 }
 
 .cards {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
 }
 
 .card {
-  width: 200px;
-  height: 260px;
-  background: #2f5d2f;
-  border-radius: 20px;
+  height: 180px;
+  border-radius: 16px;
+  background: linear-gradient(
+    135deg,
+    #d9fbe7,
+    #bfffd9
+  );
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
-/* FEATURES */
+/* =========================
+   SECCIÓN VERDE / OSCURA
+========================= */
 .features {
-  background: #2f5d2f;
-  color: white;
-  padding: 80px 40px;
+  padding: 80px 60px;
+  background: linear-gradient(
+    135deg,
+    #041d12,
+    #0b3d26
+  );
   text-align: center;
 }
 
 .features h2 {
+  color: var(--neon-green);
+  font-size: 2.3rem;
   margin-bottom: 40px;
-  font-size: 30px;
+  text-shadow: 0 0 10px rgba(45, 255, 122, 0.4);
 }
 
 .icons {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 30px;
 }
 
-/* =========================
-   RESPONSIVE – VISTA PARA MÓVILES
-   ========================= */
-@media (max-width: 768px) {
-
-  /* NAVBAR */
-  .navbar {
-    flex-direction: column;
-    gap: 15px;
-    top: 10px;
-    padding: 0 20px;
-  }
-
-  .navbar nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 12px;
-  }
-
-  .navbar nav a {
-    font-size: 14px;
-  }
-
-  .btn {
-    font-size: 12px;
-    padding: 6px 14px;
-  }
-
-  /* HERO */
-  .hero {
-    padding: 0 20px;
-  }
-
-  .hero-box {
-    width: 100%;
-    padding: 40px 20px;
-  }
-
-  .hero-box h1 {
-    font-size: 32px;
-    letter-spacing: 1.5px;
-  }
-
-  .hero-box p {
-    font-size: 14px;
-  }
-
-  /* ABOUT */
-  .about {
-    padding: 60px 20px;
-  }
-
-  .cards {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .card {
-    width: 90%;
-    max-width: 300px;
-    height: 220px;
-  }
-
-  /* FEATURES */
-  .features {
-    padding: 60px 20px;
-  }
-
-  .icons {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-}
-
-/* =========================
-   MÓVILES PEQUEÑOS
-   ========================= */
-@media (max-width: 480px) {
-
-  .hero-box h1 {
-    font-size: 26px;
-  }
-
-  .navbar nav a {
-    font-size: 13px;
-  }
-
-  .icons {
-    grid-template-columns: 1fr;
-  }
-
+.icons div {
+  padding: 20px;
+  border: 1px solid var(--neon-green);
+  border-radius: 14px;
+  color: var(--soft-white);
+  font-weight: 600;
+  box-shadow: 0 0 12px rgba(45, 255, 122, 0.3);
 }
 
