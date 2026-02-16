@@ -1,1 +1,746 @@
-SEXO 1
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áreas Protegidas de Panamá Oeste | Turismo y Conservación</title>
+    <meta name="description" content="Descubre las áreas protegidas de Panamá Oeste: horarios, tarifas, cómo llegar y toda la información para tu visita. Conservación y turismo sostenible.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Areas Protegidas/css/AP.css">
+</head>
+<body>
+    <!-- HEADER CORPORATIVO -->
+    <header class="header-profesional">
+        <div class="header-contenido">
+            <a href="../index.html" class="logo-empresa">
+                <div class="logo-icono">🌿</div>
+                <div class="logo-texto">
+                    <h1>Panamá Oeste Natural</h1>
+                    <p>Turismo Sostenible y Conservación</p>
+                </div>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../Ecosistemas/O.D.E.html">Ecosistemas</a></li>
+                    <li><a href="../Fauna/O.D.F.html">Fauna</a></li>
+                    <li><a href="../Especies Extintas/M.E.E.html">Especies Extintas</a></li>
+                    <li><a href="AP.html" class="active">Áreas Protegidas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- BREADCRUMB -->
+    <nav class="breadcrumb">
+        <a href="../index.html">Inicio</a>
+        <span>›</span>
+        <a href="AP.html">Áreas Protegidas</a>
+        <span>›</span>
+        <span>Panamá Oeste</span>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero-areas">
+        <div class="hero-contenido">
+            <span class="hero-badge">🌿 6 Áreas Protegidas</span>
+            <h1 class="hero-titulo">Descubre las Áreas Protegidas de Panamá Oeste</h1>
+            <p class="hero-subtitulo">
+                Reservas naturales, parques nacionales y humedales. Información completa: horarios, 
+                tarifas, cómo llegar y actividades para tu próxima aventura ecológica.
+            </p>
+        </div>
+    </section>
+
+    <!-- ESTADÍSTICAS RÁPIDAS -->
+    <section class="stats-section">
+        <div class="stat-card">
+            <div class="stat-icon">🌳</div>
+            <div class="stat-number">6</div>
+            <div class="stat-label">Áreas Protegidas</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon">📏</div>
+            <div class="stat-number">15,000+</div>
+            <div class="stat-label">Hectáreas Protegidas</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon">🦋</div>
+            <div class="stat-number">500+</div>
+            <div class="stat-label">Especies</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon">🚗</div>
+            <div class="stat-number">30-90</div>
+            <div class="stat-label">Minutos de la ciudad</div>
+        </div>
+    </section>
+
+    <!-- FILTROS Y BÚSQUEDA -->
+    <section class="filters-section">
+        <div class="filters-container">
+            <div class="filter-group">
+                <span class="filter-label">Filtrar por:</span>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="parque">Parques Nacionales</button>
+                    <button class="filter-btn" data-filter="humedal">Humedales</button>
+                    <button class="filter-btn" data-filter="bosque">Bosques Protectores</button>
+                    <button class="filter-btn" data-filter="marino">Áreas Marinas</button>
+                </div>
+            </div>
+            <div class="search-box">
+                <input type="text" id="searchInput" class="search-input" placeholder="Buscar área protegida...">
+                <span class="search-icon">🔍</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- GRID DE ÁREAS PROTEGIDAS -->
+    <section class="areas-container">
+        <div class="section-header">
+            <h2>Áreas Protegidas de Panamá Oeste</h2>
+            <p>Información actualizada de horarios, tarifas y cómo llegar a cada destino</p>
+        </div>
+
+        <div class="areas-grid" id="areasGrid">
+            
+            <!-- 1. Parque Nacional Altos de Campana -->
+            <article class="area-card" data-categoria="parque">
+                <div class="card-imagen-container">
+                    <img src="https://miambiente.gob.pa/wp-content/uploads/2023/04/Parque-Nacional-y-Reserva-biologica-Altos-de-Campana-cumple-46-anos-de-ser-declarado-area-protegida-2-scaled.jpg" alt="Parque Nacional Altos de Campana" class="card-imagen">
+                    <span class="card-categoria">🏞️ Parque Nacional</span>
+                    <div class="card-overlay">
+                        <div class="card-distancia">
+                            <span>📍</span>
+                            <span>A 45 min de la ciudad</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-contenido">
+                    <h3 class="area-nombre">Parque Nacional Altos de Campana</h3>
+                    <div class="area-ubicacion">
+                        <span>📍</span>
+                        <span>Capira, Panamá Oeste</span>
+                    </div>
+                    <div class="area-tags">
+                        <span class="area-tag">🌳 Sendero</span>
+                        <span class="area-tag">🦅 Avistamiento</span>
+                        <span class="area-tag">🏕️ Camping</span>
+                    </div>
+                    <p class="area-descripcion">
+                        Primer parque nacional de Panamá. Bosque nuboso, gran biodiversidad y vistas espectaculares del Pacífico.
+                    </p>
+                    
+                    <!-- INFORMACIÓN PRÁCTICA -->
+                    <div class="info-practica">
+                        <div class="info-row">
+                            
+                            <span class="info-icon">🕐</span>
+                            <span class="info-label">Horario:</span>
+                            <span class="info-text">8:00 AM - 4:00 PM (Martes a Domingo)</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-icon">💰</span>
+                            <span class="info-label">Entrada:</span>
+                            <span class="info-text">Nacionales: $3 | Extranjeros: $5 | Niños: $1</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-icon">🚗</span>
+                            <span class="info-label">Cómo llegar:</span>
+                            <span class="info-text">Vía Interamericana, entrada en El Manglillo</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-icon">📞</span>
+                            <span class="info-label">Contacto:</span>
+                            <span class="info-text">+507 1234-5678</span>
+                        </div>
+                    </div>
+
+                    <button class="btn-detalles" onclick="mostrarDetalles('campana')">
+                        <span>Ver más detalles</span>
+                        <span>→</span>
+                    </button>
+                </div>
+            </article>
+
+            <!-- 2. Área de Uso Múltiple Manglares de Sajalices, Bejuco, Líbano y Punta Chame -->
+            <article class="area-card" data-categoria="humedal">
+                <div class="card-imagen-container">
+                    <img src="https://media.telemetro.com/p/9e4889b45685aae6bbafd10ea8bc8bef/adjuntos/311/imagenes/018/378/0018378544/855x0/smart/imagepng.png" alt="Manglares de Sajalices" class="card-imagen">
+                    <span class="card-categoria">🌊 Humedal RAMSAR</span>
+                    <div class="card-overlay">
+                        <div class="card-distancia">
+                            <span>📍</span>
+                            <span>A 60 min de la ciudad</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-contenido">
+                    <h3 class="area-nombre">Manglares de Sajalices, Bejuco, Líbano y Punta Chame</h3>
+                    <div class="area-ubicacion">
+                        <span>📍</span>
+                        <span>Chame, Panamá Oeste</span>
+                    </div>
+                    <div class="area-tags">
+                        <span class="area-tag">🦀 Cangrejos</span>
+                        <span class="area-tag">🦆 Aves migratorias</span>
+                        <span class="area-tag">🚣 Kayak</span>
+                    </div>
+                    <p class="area-descripcion">
+                        6,774 hectáreas de manglar protegido. Récord mundial en diversidad de cangrejos violinistas (271 especies).
+                    </p>
+                    
+                    <div class="info-practica">
+                        <div class="info-row">
+                            <span class="info-icon">🕐</span>
+                            <span class="info-label">Horario:</span>
+                            <span class="info-text">Acceso libre - Recomendado 6:00 AM - 5:00 PM</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-icon">💰</span>
+                            <span class="info-label">Entrada:</span>
+                            <span class="info-text">Acceso gratuito | Tours guiados: $15-25</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-icon">🚗</span>
+                            <span class="info-label">Cómo llegar:</span>
+                            <span class="info-text">Vía Panamericana, desvío en Sajalices o Punta Chame</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-icon">📞</span>
+                            <span class="info-label">Tours:</span>
+                            <span class="info-text">+507 2345-6789 (Operadores locales)</span>
+                        </div>
+                    </div>
+
+                    <button class="btn-detalles" onclick="mostrarDetalles('manglares')">
+                        <span>Ver más detalles</span>
+                        <span>→</span>
+                    </button>
+                </div>
+            </article>
+
+            <!-- 3. Refugio de Vida Silvestre Peñón de la Honda -->
+            <article class="area-card" data-categoria="bosque">
+                <div class="card-imagen-container">
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/01/df/f2/c7/penon-de-la-onda.jpg" alt="Peñón de la Honda" class="card-imagen">
+                    <span class="card-categoria">🦜 Refugio de Vida Silvestre</span>
+                    <div class="card-overlay">
+                        <div class="card-distancia">
+                            <span>📍</span>
+                            <span>A 30 min de la ciudad</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-contenido">
+                    <h3 class="area-nombre">Refugio de Vida Silvestre Peñón de la Honda</h3>
+                    <div class="area-ubicacion">
+                        <span>📍</span>
+                        <span>La Chorrera, Panamá Oeste</span>
+                    </div>
+                    <div class="area-tags">
+                        <span class="area-tag">⛰️ Formación rocosa</span>
+                        <span class="area-tag">🦜 Aves</span>
+                        <span class="area-tag">📸 Fotografía</span>
+                    </div>
+                    <p class="area-descripcion">
+                        Impresionante formación rocosa de 300 metros de altura. Bosque seco tropical con gran variedad de aves.
+                    </p>
+                    
+                    <div class="info-practica">
+                        <div class="info-row">
+                            <span class="info-icon">🕐</span>
+                            <span class="info-label">Horario:</span>
+                            <span class="info-text">7:00 AM - 5:00 PM (Todos los días)</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-icon">💰</span>
+                            <span class="info-label">Entrada:</span>
+                            <span class="info-text">Nacionales: $2 | Extranjeros: $4</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-icon">🚗</span>
+                            <span class="info-label">Cómo llegar:</span>
+                            <span class="info-text">Desde La Chorrera, vía a El Cacao</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-icon">🥾</span>
+                            <span class="info-label">Sendero:</span>
+                            <span class="info-text">2 km (dificultad moderada)</span>
+                        </div>
+                    </div>
+
+                    <button class="btn-detalles" onclick="mostrarDetalles('penon')">
+                        <span>Ver más detalles</span>
+                        <span>→</span>
+                    </button>
+                </div>
+            </article>
+
+            
+
+           
+            <!-- 6. Humedal de Importancia Internacional Bahía de Panamá (Sector Oeste) -->
+            <article class="area-card" data-categoria="humedal">
+                <div class="card-imagen-container">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXgUM4bMUqs-vSNnkhZmWLSHCO1mepqaET2g&s" alt="Bahía de Panamá" class="card-imagen">
+                    <span class="card-categoria">🦩 Sitio RAMSAR</span>
+                    <div class="card-overlay">
+                        <div class="card-distancia">
+                            <span>📍</span>
+                            <span>A 20 min de la ciudad</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-contenido">
+                    <h3 class="area-nombre">Humedal Bahía de Panamá (Sector Oeste)</h3>
+                    <div class="area-ubicacion">
+                        <span>📍</span>
+                        <span>Arraiján, La Chorrera, Chame</span>
+                    </div>
+                    <div class="area-tags">
+                        <span class="area-tag">🦩 Aves playeras</span>
+                        <span class="area-tag">🌊 Manglar</span>
+                        <span class="area-tag">📷 Observación</span>
+                    </div>
+                    <p class="area-descripcion">
+                        Sitio RAMSAR de importancia internacional. Punto clave para aves migratorias que viajan entre Norte y Sudamérica.
+                    </p>
+                    
+                    <div class="info-practica">
+                        <div class="info-row">
+                            <span class="info-icon">🕐</span>
+                            <span class="info-label">Mejor época:</span>
+                            <span class="info-text">Septiembre - Marzo (aves migratorias)</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-icon">💰</span>
+                            <span class="info-label">Entrada:</span>
+                            <span class="info-text">Acceso libre - Marea baja recomendada</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-icon">🚗</span>
+                            <span class="info-label">Puntos de acceso:</span>
+                            <span class="info-text">Costa Verde, Veracruz, Playa Kobbe</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-icon">🔭</span>
+                            <span class="info-label">Recomendación:</span>
+                            <span class="info-text">Llevar binoculares y repelente</span>
+                        </div>
+                    </div>
+
+                    <button class="btn-detalles" onclick="mostrarDetalles('bahia')">
+                        <span>Ver más detalles</span>
+                        <span>→</span>
+                    </button>
+                </div>
+            </article>
+        </div>
+
+        <!-- Mensaje sin resultados -->
+        <div class="no-results" id="noResults" style="display: none;">
+            <div class="no-results-icon">🔍</div>
+            <h3>No se encontraron áreas protegidas</h3>
+            <p>Intenta con otro término de búsqueda o selecciona una categoría diferente.</p>
+        </div>
+    </section>
+
+    <!-- MAPA DE UBICACIONES -->
+    <section class="mapa-section">
+        <div class="mapa-container">
+            <div class="section-header">
+                <h2>¿Cómo llegar?</h2>
+                <p>Ubicación de las principales áreas protegidas de Panamá Oeste</p>
+            </div>
+            
+            <div class="mapa-grid">
+                <div class="mapa-info">
+                    <h3>🚗 Rutas de acceso</h3>
+                    
+                    <div class="ruta-item">
+                        <div class="ruta-icon">🚗</div>
+                        <div class="ruta-detalle">
+                            <h4>Desde Ciudad de Panamá</h4>
+                            <p>Toma la Vía Interamericana hacia el oeste. Todas las áreas están señalizadas.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="ruta-item">
+                        <div class="ruta-icon">🚌</div>
+                        <div class="ruta-detalle">
+                            <h4>Transporte público</h4>
+                            <p>Buses desde Albrook hacia La Chorrera, Capira o Chame. Luego taxis locales.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="ruta-item">
+                        <div class="ruta-icon">🚕</div>
+                        <div class="ruta-detalle">
+                            <h4>Tours organizados</h4>
+                            <p>Operadores turísticos ofrecen paquetes con transporte incluido.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="ruta-item">
+                        <div class="ruta-icon">⏱️</div>
+                        <div class="ruta-detalle">
+                            <h4>Tiempos aproximados</h4>
+                            <p>Altos de Campana: 45 min | Manglares: 60 min | Isla Chapera: 90 min</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mapa-embed">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.2144112612115!2d-79.8575594!3d8.8333333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa9a1b2c3d4e5f6%3A0x7b8a9c0d1e2f3a4b!2sPanam%C3%A1%20Oeste!5e0!3m2!1ses!2spa!4v1700000000000" 
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TIPS PARA EL VISITANTE -->
+    <section class="tips-section">
+        <div class="section-header">
+            <h2>Tips para tu visita</h2>
+            <p>Recomendaciones para disfrutar al máximo las áreas protegidas</p>
+        </div>
+        
+        <div class="tips-grid">
+            <div class="tip-card">
+                <div class="tip-icon">🧴</div>
+                <h4>Protector solar</h4>
+                <p>El sol tropical es intenso. Usa bloqueador ecológico para no dañar los ecosistemas.</p>
+            </div>
+            <div class="tip-card">
+                <div class="tip-icon">💧</div>
+                <h4>Agua</h4>
+                <p>Lleva suficiente agua. En la mayoría de áreas no hay puntos de venta.</p>
+            </div>
+            <div class="tip-card">
+                <div class="tip-icon">👟</div>
+                <h4>Calzado adecuado</h4>
+                <p>Zapatos cómodos y cerrados para senderos. Chanclas solo para playa.</p>
+            </div>
+            <div class="tip-card">
+                <div class="tip-icon">📷</div>
+                <h4>Binoculares</h4>
+                <p>Imprescindibles para avistamiento de aves y vida silvestre.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE RESERVAS -->
+    <section class="reservas-section">
+        <div class="reservas-banner">
+            <div class="reservas-content">
+                <h3>📅 ¿Listo para tu aventura?</h3>
+                <p>Reserva tours guiados, transporte o alojamiento en las áreas protegidas</p>
+            </div>
+            <a href="#" class="btn-reserva">Reservar ahora →</a>
+        </div>
+    </section>
+
+    <!-- MODAL DE DETALLES (se llena con JavaScript) -->
+    <div id="detalleModal" class="modal">
+        <div class="modal-content" id="modalContent">
+            <!-- El contenido se carga dinámicamente -->
+        </div>
+    </div>
+
+    <!-- FOOTER CORPORATIVO -->
+    <footer class="footer-profesional">
+        <div class="footer-contenido">
+            <div class="footer-columna">
+                <h3>Panamá Oeste Natural</h3>
+                <p>
+                    Promoviendo el turismo sostenible y la conservación de las áreas protegidas 
+                    de la provincia de Panamá Oeste.
+                </p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon" aria-label="Facebook">f</a>
+                    <a href="#" class="social-icon" aria-label="Twitter">𝕏</a>
+                    <a href="#" class="social-icon" aria-label="Instagram">📷</a>
+                    <a href="#" class="social-icon" aria-label="YouTube">▶️</a>
+                </div>
+            </div>
+
+            <div class="footer-columna">
+                <h3>Áreas Protegidas</h3>
+                <ul>
+                    <li><a href="#">Altos de Campana</a></li>
+                    <li><a href="#">Manglares de Chame</a></li>
+                    <li><a href="#">Peñón de la Honda</a></li>
+                    <li><a href="#">Isla Chapera</a></li>
+                    <li><a href="#">Cerro Chucantí</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-columna">
+                <h3>Información útil</h3>
+                <ul>
+                    <li><a href="#">Preguntas frecuentes</a></li>
+                    <li><a href="#">Regulaciones</a></li>
+                    <li><a href="#">Guías certificados</a></li>
+                    <li><a href="#">Alojamientos</a></li>
+                    <li><a href="#">Transporte</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-columna">
+                <h3>Contacto</h3>
+                <p>📍 Panamá Oeste, Panamá</p>
+                <p>📧 info@panamaoeste-natural.org</p>
+                <p>📞 +507 1234-5678</p>
+                <p>🕐 Lun - Vie: 8:00 AM - 5:00 PM</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Panamá Oeste Natural. Todos los derechos reservados. | 
+               <a href="#">Política de Privacidad</a> | 
+               <a href="#">Términos de Uso</a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Sistema de filtros
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const areaCards = document.querySelectorAll('.area-card');
+        const noResults = document.getElementById('noResults');
+        const searchInput = document.getElementById('searchInput');
+
+        // Función para filtrar por categoría
+        filterButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterButtons.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                const filter = btn.dataset.filter;
+                aplicarFiltros(filter, searchInput.value.toLowerCase());
+            });
+        });
+
+        // Función para buscar
+        searchInput.addEventListener('input', (e) => {
+            const activeFilter = document.querySelector('.filter-btn.active').dataset.filter;
+            aplicarFiltros(activeFilter, e.target.value.toLowerCase());
+        });
+
+        function aplicarFiltros(categoria, busqueda) {
+            let visibleCount = 0;
+
+            areaCards.forEach(card => {
+                const nombre = card.querySelector('.area-nombre').textContent.toLowerCase();
+                const descripcion = card.querySelector('.area-descripcion').textContent.toLowerCase();
+                const tags = Array.from(card.querySelectorAll('.area-tag')).map(t => t.textContent.toLowerCase()).join(' ');
+                const categoriaCard = card.dataset.categoria;
+
+                const coincideCategoria = categoria === 'all' || categoriaCard === categoria;
+                const coincideBusqueda = nombre.includes(busqueda) || descripcion.includes(busqueda) || tags.includes(busqueda);
+
+                if (coincideCategoria && coincideBusqueda) {
+                    card.style.display = 'block';
+                    visibleCount++;
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+
+            noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+        }
+
+        // Modal de detalles
+        function mostrarDetalles(id) {
+            const modal = document.getElementById('detalleModal');
+            const modalContent = document.getElementById('modalContent');
+            
+            // Datos de las áreas (podrías cargarlos de un JSON)
+            const detalles = {
+                campana: {
+                    titulo: 'Parque Nacional Altos de Campana',
+                    imagen: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/51/4d/9c/parque-nacional-altos.jpg?w=1200&h=-1&s=1',
+                    descripcion: 'Primer parque nacional de Panamá, establecido en 1966. Protege 4,816 hectáreas de bosque nuboso y seco. Es hogar de más de 200 especies de aves, incluyendo el quetzal y el águila crestada.',
+                    horario: '8:00 AM - 4:00 PM (Martes a Domingo)',
+                    precio: 'Nacionales: $3 | Extranjeros: $5 | Niños: $1',
+                    comoLlegar: 'Vía Interamericana, entrada en El Manglillo (km 55). Carretera afirmada en buen estado.',
+                    contacto: '+507 1234-5678',
+                    actividades: 'Senderismo (4 senderos), camping, avistamiento de aves, picnic.',
+                    recomendaciones: 'Llevar agua, repelente, calzado de senderismo y chaqueta (hace fresco).'
+                },
+                manglares: {
+                    titulo: 'Manglares de Sajalices, Bejuco, Líbano y Punta Chame',
+                    imagen: 'https://media.telemetro.com/p/9e4889b45685aae6bbafd10ea8bc8bef/adjuntos/311/imagenes/018/378/0018378544/855x0/smart/imagepng.png',
+                    descripcion: 'Área de Uso Múltiple que protege 6,774 hectáreas de manglar. Récord mundial en diversidad de cangrejos violinistas con 271 especies. Hogar de más de 80 especies de aves y 100 de peces.',
+                    horario: 'Acceso libre - Mejor en marea baja',
+                    precio: 'Entrada gratuita. Tours guiados: $15-25 por persona',
+                    comoLlegar: 'Vía Panamericana, desvío en Sajalices o en Punta Chame. Carretera pavimentada hasta los puntos de acceso.',
+                    contacto: 'Operadores locales en Punta Chame',
+                    actividades: 'Kayak, avistamiento de aves, fotografía, pesca artesanal (con permiso).',
+                    recomendaciones: 'Binoculares, protector solar ecológico, repelente, sombrero.'
+                },
+                penon: {
+                    titulo: 'Refugio de Vida Silvestre Peñón de la Honda',
+                    imagen: 'https://www.laestrella.com.pa/uploads/2023/09/19/650997975a3dc.jpeg',
+                    descripcion: 'Impresionante formación rocosa de 300 metros de altura. Protege 1,200 hectáreas de bosque seco tropical. Ideal para observación de aves rapaces y escalada.',
+                    horario: '7:00 AM - 5:00 PM (Todos los días)',
+                    precio: 'Nacionales: $2 | Extranjeros: $4',
+                    comoLlegar: 'Desde La Chorrera, tomar vía a El Cacao. 30 minutos en auto. Últimos 2 km son de tierra.',
+                    contacto: '+507 2345-6789',
+                    actividades: 'Senderismo, escalada (con permiso), observación de aves, fotografía.',
+                    recomendaciones: 'Calzado antideslizante, agua, protección solar.'
+                },
+                chapera: {
+                    titulo: 'Área Protegida Isla Chapera',
+                    imagen: 'https://www.visitpanama.com/wp-content/uploads/2024/02/Chapera-5.webp',
+                    descripcion: 'Isla de 50 hectáreas rodeada de arrecifes de coral. Parte del Archipiélago de las Perlas. Playas de arena blanca y aguas cristalinas ideales para snorkel.',
+                    horario: 'Temporada seca (diciembre - mayo)',
+                    precio: 'Tours: $45-85 (incluye transporte, guía, almuerzo, equipo de snorkel)',
+                    comoLlegar: 'Embarcadero de Chapera en La Chorrera. Salidas diarias en temporada alta.',
+                    contacto: '+507 3456-7890 (Asociación de Turismo de Chapera)',
+                    actividades: 'Snorkel, buceo, caminatas, observación de tortugas (julio-septiembre).',
+                    recomendaciones: 'Protector solar biodegradable, traje de baño, toalla, cámara subacuática.'
+                },
+                chucanti: {
+                    titulo: 'Bosque Protector Cerro Chucantí',
+                    imagen: 'https://www.adoptaelcerro.org/wp-content/uploads/2023/05/IMG_3286-scaled.jpg',
+                    descripcion: 'Reserva privada de 1,500 hectáreas. Punto más alto de la cordillera de Majé con 1,439 msnm. Refugio de especies endémicas como la rana de cristal y el colibrí de Chucantí.',
+                    horario: 'Visitas con reservación previa (mínimo una semana)',
+                    precio: 'Donación sugerida: $10 por persona',
+                    comoLlegar: 'Desde Chepo, 2 horas en 4x4. Coordinar con la Fundación Adopta el Cerro Chucantí.',
+                    contacto: '+507 4567-8901 | reservas@adoptaelcerro.org',
+                    actividades: 'Senderismo (3 senderos), camping, observación de aves, investigación.',
+                    recomendaciones: 'Reservar con anticipación. Llevar ropa de abrigo, impermeable, sleeping bag.'
+                },
+                bahia: {
+                    titulo: 'Humedal Bahía de Panamá (Sector Oeste)',
+                    imagen: 'https://www.miambiente.gob.pa/wp-content/uploads/2023/02/humedal-bahia-de-panama-2.jpg',
+                    descripcion: 'Sitio RAMSAR de importancia internacional. Protege más de 45,000 hectáreas de manglar y planicies lodosas. Punto clave para aves migratorias (hasta 2 millones al año).',
+                    horario: 'Mejor época: septiembre - marzo (aves migratorias)',
+                    precio: 'Acceso libre',
+                    comoLlegar: 'Varios accesos: Costa Verde (Arraiján), Veracruz, Playa Kobbe, Punta Chame.',
+                    contacto: 'MiAMBIENTE: +507 500-0000',
+                    actividades: 'Observación de aves, fotografía, kayak en manglares.',
+                    recomendaciones: 'Binoculares, guía de aves, repelente, ir con marea baja.'
+                }
+            };
+
+            const detalle = detalles[id];
+            
+            if (detalle) {
+                modalContent.innerHTML = `
+                    <div class="modal-header">
+                        <img src="${detalle.imagen}" alt="${detalle.titulo}">
+                        <button class="modal-close" onclick="cerrarModal()">×</button>
+                    </div>
+                    <div class="modal-body">
+                        <h2 class="area-nombre">${detalle.titulo}</h2>
+                        <p class="area-descripcion" style="margin: 1rem 0;">${detalle.descripcion}</p>
+                        
+                        <div class="info-practica">
+                            <div class="info-row">
+                                <span class="info-icon">🕐</span>
+                                <span class="info-label">Horario:</span>
+                                <span class="info-text">${detalle.horario}</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-icon">💰</span>
+                                <span class="info-label">Tarifas:</span>
+                                <span class="info-text">${detalle.precio}</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-icon">🚗</span>
+                                <span class="info-label">Cómo llegar:</span>
+                                <span class="info-text">${detalle.comoLlegar}</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-icon">📞</span>
+                                <span class="info-label">Contacto:</span>
+                                <span class="info-text">${detalle.contacto}</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-icon">🎯</span>
+                                <span class="info-label">Actividades:</span>
+                                <span class="info-text">${detalle.actividades}</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-icon">💡</span>
+                                <span class="info-label">Recomendaciones:</span>
+                                <span class="info-text">${detalle.recomendaciones}</span>
+                            </div>
+                        </div>
+
+                        <button class="btn-detalles" onclick="cerrarModal()">
+                            <span>Cerrar</span>
+                        </button>
+                    </div>
+                `;
+                modal.style.display = 'block';
+            }
+        }
+
+        function cerrarModal() {
+            document.getElementById('detalleModal').style.display = 'none';
+        }
+
+        // Cerrar modal con Escape
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                cerrarModal();
+            }
+        });
+
+        // Cerrar modal al hacer clic fuera
+        window.onclick = function(event) {
+            const modal = document.getElementById('detalleModal');
+            if (event.target === modal) {
+                cerrarModal();
+            }
+        }
+
+        // Animación de entrada para tarjetas
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        areaCards.forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(30px)';
+            card.style.transition = 'all 0.6s ease';
+            observer.observe(card);
+        });
+
+        // Scroll suave para enlaces internos
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
