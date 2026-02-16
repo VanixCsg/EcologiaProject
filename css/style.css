@@ -84,7 +84,7 @@ body {
   padding-top: 80px;
 }
 
-/* Overlay oscuro para contraste */
+/* Overlay oscuro para contraste 
 .hero::before {
   content: "";
   position: absolute;
@@ -95,6 +95,7 @@ body {
   );
   z-index: 1;
 }
+*/
 
 .hero-box {
   position: relative;
