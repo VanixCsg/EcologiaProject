@@ -1,2 +1,1443 @@
-SEXO 2ç
-SAPA
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especies Extintas de Panamá Oeste | Museo Digital</title>
+    <meta name="description" content="Memoria digital de las especies más importantes extintas y amenazadas de Panamá Oeste.">
+    <link rel="stylesheet" href="../Especies Extintas/css/Mee.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- HEADER CORPORATIVO -->
+    <header class="header-profesional">
+        <div class="header-contenido">
+            <a href="../index.html" class="logo-empresa">
+                <div class="logo-icono">🦴</div>
+                <div class="logo-texto">
+                    <h1>Museo Digital</h1>
+                    <p>Especies Extintas y Amenazadas</p>
+                </div>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../Ecosistemas/O.D.E.html">Ecosistemas</a></li>
+                    <li><a href="../Fauna/O.D.F.html">Faunas</a></li>
+                    <li><a href="M.E.E.html">Especies Extintas</a></li>
+                    <li><a href="../Areas Protegidas/AP.html">Áreas Protegidas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION CON MEMORIAL -->
+    <section class="hero-memorial">
+        <div class="memorial-overlay"></div>
+        <div class="memorial-grid"></div>
+        <div class="hero-contenido">
+            <div class="memorial-icon">⚠️</div>
+            <h1 class="hero-titulo">Especies Extintas y Amenazadas</h1>
+            <p class="hero-subtitulo">
+                Un memorial digital a las especies más importantes que han desaparecido o están en peligro crítico en Panamá Oeste.
+                Cada una representa una llamada urgente a la conservación y protección ambiental.
+            </p>
+            <div class="memorial-stats">
+                <div class="memorial-stat">
+                    <span class="stat-number">30+</span>
+                    <span class="stat-label">Especies Documentadas</span>
+                </div>
+                <div class="memorial-stat">
+                    <span class="stat-number">124+</span>
+                    <span class="stat-label">Total Amenazadas</span>
+                </div>
+                <div class="memorial-stat">
+                    <span class="stat-number">50</span>
+                    <span class="stat-label">Anfibios en Riesgo</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BREADCRUMB -->
+    <nav class="breadcrumb">
+        <a href="../index.html">Inicio</a>
+        <span>›</span>
+        <span>Especies Extintas y Amenazadas</span>
+    </nav>
+
+    <!-- SECCIÓN DE ADVERTENCIA -->
+    <section class="warning-section">
+        <div class="warning-box">
+            <div class="warning-icon">⚠️</div>
+            <h2>Estado de Conservación Crítico</h2>
+            <p>
+                Las especies mostradas representan las pérdidas más significativas de biodiversidad en Panamá Oeste, 
+                así como aquellas en peligro crítico. Han desaparecido o están al borde de la extinción debido a 
+                deforestación, caza ilegal, contaminación, hongo quitridio y pérdida de hábitat. 
+                Más de 124 especies adicionales están actualmente amenazadas.
+            </p>
+        </div>
+    </section>
+
+    <!-- FILTROS Y BÚSQUEDA -->
+    <section class="filters-section">
+        <div class="filters-container">
+            <div class="filter-group">
+                <label class="filter-label">Categoría:</label>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">Todas</button>
+                    <button class="filter-btn" data-filter="anfibios">Anfibios</button>
+                    <button class="filter-btn" data-filter="mamiferos">Mamíferos</button>
+                    <button class="filter-btn" data-filter="aves">Aves</button>
+                    <button class="filter-btn" data-filter="reptiles">Reptiles</button>
+                    <button class="filter-btn" data-filter="peces">Peces</button>
+                    <button class="filter-btn" data-filter="extintas">Extintas Localmente</button>
+                </div>
+            </div>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Buscar especie..." class="search-input">
+                <span class="search-icon">🔍</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- GRID DE ESPECIES -->
+    <section class="especies-container">
+        <div class="section-header">
+            <h2>Especies en Peligro y Extintas</h2>
+            <p>Documentación científica oficial de las especies amenazadas o desaparecidas localmente</p>
+        </div>
+
+        <div class="especies-grid">
+            
+            <!-- ========== ANFIBIOS (los más afectados) ========== -->
+            
+            <!-- 1. Rana Dorada de Panamá (existente) -->
+            <article class="especie-card" data-categoria="anfibios">
+                <div class="card-status extinct">EXTINTA EN ESTADO SALVAJE</div>
+                <div class="card-imagen-container">
+                    <img src="https://miambiente.gob.pa/wp-content/uploads/2025/08/Ranitas-Doradas-28.jpg" 
+                         alt="Rana Dorada" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Rana Dorada de Panamá</h3>
+                        <span class="especie-cientifico">Atelopus zeteki</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Anfibio</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">2007</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Hongo quitridio</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        Especie endémica de Panamá y símbolo nacional. Devastada por el hongo quitridio. 
+                        Solo sobrevive en programas de cría en cautiverio.
+                    </p>
+                </div>
+            </article>
+
+            <!-- 2. Rana Arlequín de Chiriquí (existente) -->
+            <article class="especie-card" data-categoria="anfibios">
+                <div class="card-status extinct">EXTINTA</div>
+                <div class="card-imagen-container">
+                    <img src="https://media.telemetro.com/p/0001cfcc7cec88564f98030d2ea1de39/adjuntos/311/imagenes/001/340/0001340967/1200x675/smart/el-colorido-atelopus-chiriquiensis-que-vivia-altitud-costa-rica-y-panama-pero-que-no-fue-visto-1996-entraran-junto-otras-28-especies-la-categoria-extincion-la-lista-roja-la-uicn.jpg" 
+                         alt="Rana Arlequín" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Rana Arlequín de Chiriquí</h3>
+                        <span class="especie-cientifico">Atelopus chiriquiensis</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Anfibio</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">1996</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Hongo quitridio</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        Completamente extinta. No vista en más de 30 años. Víctima de la pandemia 
+                        de quitridiomicosis que devastó anfibios centroamericanos.
+                    </p>
+                </div>
+            </article>
+
+            <!-- 3. Rana Arlequín Limosa (NUEVA) -->
+            <article class="especie-card" data-categoria="anfibios">
+                <div class="card-status endangered">PELIGRO CRÍTICO</div>
+                <div class="card-imagen-container">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmG8T8a_FAv1F7KqKvlQYUpK3M9U90HHDP2A&s" 
+                         alt="Rana Arlequín Limosa" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Rana Arlequín Limosa</h3>
+                        <span class="especie-cientifico">Atelopus limosus</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Anfibio</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">2010</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Hongo quitridio y pérdida de hábitat</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        Especie endémica de Panamá, de coloración variable. En peligro crítico por el hongo quitridio 
+                        y la destrucción de su hábitat ribereño. Población en declive acelerado.
+                    </p>
+                </div>
+            </article>
+
+            <!-- 4. Rana Venenosa Punteada (NUEVA) -->
+            <article class="especie-card" data-categoria="anfibios">
+                <div class="card-status endangered">PELIGRO CRÍTICO</div>
+                <div class="card-imagen-container">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVKo4cK3NjxHetFx8U-ovNQ39aDGCoPSZK1A&s" 
+                         alt="Rana Venenosa Punteada" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Rana Venenosa Punteada</h3>
+                        <span class="especie-cientifico">Oophaga pumilio</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Anfibio</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">2015</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Pérdida de hábitat y hongo quitridio</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        Pequeña rana de colores brillantes, variable según la región. En peligro crítico en varias zonas 
+                        de Panamá Oeste debido a la deforestación y enfermedades emergentes.
+                    </p>
+                </div>
+            </article>
+
+            <!-- 5. Rana Arbórea La Loma (NUEVA) -->
+            <article class="especie-card" data-categoria="anfibios">
+                <div class="card-status endangered">EN PELIGRO</div>
+                <div class="card-imagen-container">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Simlisca_sila.jpg/1280px-Simlisca_sila.jpg" 
+                         alt="Rana Arbórea La Loma" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Rana Arbórea La Loma</h3>
+                        <span class="especie-cientifico">Smilisca sila</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Anfibio</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">2018</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Hongo quitridio y deforestación</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        Rana arbórea de tamaño mediano, común en bosques húmedos. En peligro por la combinación de 
+                        enfermedad fúngica y pérdida de su hábitat natural en tierras altas.
+                    </p>
+                </div>
+            </article>
+
+            <!-- 6. Isthmohyla calypsa (NUEVA) -->
+            <article class="especie-card" data-categoria="anfibios">
+                <div class="card-status extinct">POSIBLEMENTE EXTINTA</div>
+                <div class="card-imagen-container">
+                    <img src="https://inaturalist-open-data.s3.amazonaws.com/photos/142416/large.jpg" 
+                         alt="Isthmohyla calypsa" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Rana Calipsa</h3>
+                        <span class="especie-cientifico">Isthmohyla calypsa</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Anfibio</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">1990s</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Hongo quitridio y cambio climático</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        Posiblemente extinta en áreas del Pacífico. Esta rana arbórea no ha sido vista en décadas 
+                        a pesar de búsquedas intensivas. Víctima de la pandemia de quitridio.
+                    </p>
+                </div>
+            </article>
+
+            <!-- 7. Rana Venenosa Esplendida (existente) -->
+            <article class="especie-card" data-categoria="anfibios">
+                <div class="card-status extinct">EXTINTA</div>
+                <div class="card-imagen-container">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoPQABWrj8R6TmGIiMggKLuVQZYzaLFTKT0A&s" 
+                         alt="Rana Venenosa" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Rana Venenosa Esplendida</h3>
+                        <span class="especie-cientifico">Oophaga speciosa</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Anfibio</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">2004</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Hongo quitridio + deforestación</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        Rana venenosa de colores brillantes. Endémica de bosques montañosos. 
+                        Extinta por combinación de hongo mortal y destrucción total de su hábitat.
+                    </p>
+                </div>
+            </article>
+
+            <!-- ========== MAMÍFEROS ========== -->
+            
+            <!-- 8. Jaguar (existente) -->
+            <article class="especie-card" data-categoria="mamiferos">
+                <div class="card-status extinct">EXTINTO LOCALMENTE</div>
+                <div class="card-imagen-container">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Standing_jaguar.jpg/1200px-Standing_jaguar.jpg" 
+                         alt="Jaguar" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Jaguar</h3>
+                        <span class="especie-cientifico">Panthera onca</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Mamífero</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">1985</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Deforestación masiva y caza</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        El felino más grande de América. Requería territorios extensos de bosque primario. 
+                        Su desaparición alteró toda la cadena trófica de la región.
+                    </p>
+                </div>
+            </article>
+
+            <!-- 9. Puma (existente) -->
+            <article class="especie-card" data-categoria="mamiferos">
+                <div class="card-status endangered">AMENAZADO</div>
+                <div class="card-imagen-container">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZEaYoBHw5Rs0IiPMcYrahfsvQreHtasMbKw&s" 
+                         alt="Puma" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Puma</h3>
+                        <span class="especie-cientifico">Puma concolor</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Mamífero</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">2005</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Fragmentación del hábitat y conflicto humano</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        Depredador tope con el rango más amplio de América. Amenazado por reducción drástica 
+                        de territorio de caza y conflicto con ganaderos.
+                    </p>
+                </div>
+            </article>
+
+            <!-- 10. Ocelote (existente) -->
+            <article class="especie-card" data-categoria="mamiferos">
+                <div class="card-status vulnerable">VULNERABLE</div>
+                <div class="card-imagen-container">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Ocelot_%28Jaguatirica%29_Zoo_Itatiba.jpg" 
+                         alt="Ocelote" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Ocelote</h3>
+                        <span class="especie-cientifico">Leopardus pardalis</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Mamífero</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">2010</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Caza y pérdida de bosque</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        Felino mediano de pelaje manchado. Vulnerable por caza histórica por su piel 
+                        y fragmentación extrema de bosques.
+                    </p>
+                </div>
+            </article>
+
+            <!-- 11. Mono Aullador de Manto (NUEVO) -->
+            <article class="especie-card" data-categoria="mamiferos">
+                <div class="card-status endangered">AMENAZADO</div>
+                <div class="card-imagen-container">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/37/Alouatta_palliata_coibensis_30273613.jpg" 
+                         alt="Mono Aullador de Manto" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Mono Aullador de Manto</h3>
+                        <span class="especie-cientifico">Alouatta palliata</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Mamífero</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">2020</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Deforestación y fragmentación</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        Amenazado por la deforestación masiva en Panamá Oeste. La pérdida de conectividad 
+                        entre fragmentos de bosque ha diezmado sus poblaciones.
+                    </p>
+                </div>
+            </article>
+
+            <!-- 12. Mono Ardilla Centroamericano (NUEVO) -->
+            <article class="especie-card" data-categoria="mamiferos">
+                <div class="card-status endangered">EN PELIGRO</div>
+                <div class="card-imagen-container">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLY-p0y10y-mW1v9Gv0VYeKklZZJZJX3Ft1g&s" 
+                         alt="Mono Ardilla" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Mono Ardilla Centroamericano</h3>
+                        <span class="especie-cientifico">Saimiri oerstedii</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Mamífero</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">2015</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Pérdida de hábitat y tráfico ilegal</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        Pequeño primate de cara blanca y cola larga. En peligro por la deforestación 
+                        y captura para mascotas. Poblaciones remanentes muy fragmentadas.
+                    </p>
+                </div>
+            </article>
+
+            <!-- 13. Tapir Centroamericano (existente) -->
+            <article class="especie-card" data-categoria="mamiferos extintas">
+                <div class="card-status extinct">EXTINTO LOCALMENTE</div>
+                <div class="card-imagen-container">
+                    <img src="https://miambiente.gob.pa/wp-content/uploads/2023/04/El-Tapir-el-jardinero-del-bosque898998.jpg" 
+                         alt="Tapir" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Tapir Centroamericano</h3>
+                        <span class="especie-cientifico">Tapirus bairdii</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Mamífero</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">1992</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Caza y fragmentación de hábitat</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        El mamífero terrestre más grande de Centroamérica. Dispersor clave de semillas. 
+                        Desaparecido en gran parte del Pacífico central por caza y pérdida de bosque.
+                    </p>
+                </div>
+            </article>
+
+            <!-- 14. Venado Cola Blanca (NUEVO) -->
+            <article class="especie-card" data-categoria="mamiferos">
+                <div class="card-status vulnerable">VULNERABLE</div>
+                <div class="card-imagen-container">
+                    <img src="https://ecosdelbosque.com/sites/default/files/styles/specie_slider/public/2020-12/odocoileus_virginianus_09.jpg?itok=2kIJjpWb" 
+                         alt="Venado Cola Blanca" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Venado Cola Blanca</h3>
+                        <span class="especie-cientifico">Odocoileus virginianus</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Mamífero</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">2021</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Caza ilegal y pérdida de hábitat</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        Vulnerable por caza ilegal para consumo y destrucción de su hábitat. 
+                        Las poblaciones han disminuido drásticamente en las últimas décadas.
+                    </p>
+                </div>
+            </article>
+
+            <!-- 15. Saíno (NUEVO) -->
+            <article class="especie-card" data-categoria="mamiferos">
+                <div class="card-status endangered">AMENAZADO</div>
+                <div class="card-imagen-container">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-Pblt74z1HaBADAkVB_UjQjLrByHW2wyJRw&s" 
+                         alt="Saíno" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Saíno (Pecarí de Collar)</h3>
+                        <span class="especie-cientifico">Pecari tajacu</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Mamífero</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">2018</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Caza ilegal intensiva</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        Amenazado por caza ilegal para consumo. Las poblaciones han colapsado en áreas 
+                        accesibles a cazadores. Importante dispersor de semillas.
+                    </p>
+                </div>
+            </article>
+
+            <!-- 16. Manatí del Caribe (existente) -->
+            <article class="especie-card" data-categoria="mamiferos">
+                <div class="card-status endangered">PELIGRO CRÍTICO</div>
+                <div class="card-imagen-container">
+                    <img src="https://www.ecoavant.com/uploads/s1/13/69/1/manatiantillano-13691.jpeg" 
+                         alt="Manatí" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Manatí del Caribe</h3>
+                        <span class="especie-cientifico">Trichechus manatus</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Mamífero Marino</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">2003</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Contaminación de aguas costeras</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        Mamífero marino herbívoro de aguas cálidas. Desapareció de zonas costeras 
+                        por colisiones con embarcaciones y degradación de manglares.
+                    </p>
+                </div>
+            </article>
+
+            <!-- 17. Nutria Neotropical (existente) -->
+            <article class="especie-card" data-categoria="mamiferos">
+                <div class="card-status extinct">EXTINTO LOCALMENTE</div>
+                <div class="card-imagen-container">
+                    <img src="https://multimedia20stg.blob.core.windows.net/especiesreduced/1915Lontra.jpg" 
+                         alt="Nutria" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Nutria Neotropical</h3>
+                        <span class="especie-cientifico">Lontra longicaudis</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Mamífero</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">1996</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Contaminación de ríos</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        Depredador acuático de ríos limpios. Indicador de salud de ecosistemas 
+                        acuáticos. Desapareció por contaminación industrial y agrícola.
+                    </p>
+                </div>
+            </article>
+
+            <!-- 18. Mono Aullador de Azuero (existente) -->
+            <article class="especie-card" data-categoria="mamiferos extintas">
+                <div class="card-status extinct">EXTINTO</div>
+                <div class="card-imagen-container">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/37/Alouatta_palliata_coibensis_30273613.jpg" 
+                         alt="Mono Aullador" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Mono Aullador de Azuero</h3>
+                        <span class="especie-cientifico">Alouatta coibensis trabeata</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Mamífero</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">1976</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Pérdida total de hábitat</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        Subespecie endémica de la península de Azuero. Completamente extinto 
+                        por deforestación del 95% de los bosques de la región.
+                    </p>
+                </div>
+            </article>
+
+            <!-- 19. Tigrillo (existente) -->
+            <article class="especie-card" data-categoria="mamiferos extintas">
+                <div class="card-status extinct">EXTINTO LOCALMENTE</div>
+                <div class="card-imagen-container">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Leopardus_tigrinus_-_Parc_des_F%C3%A9lins.jpg" 
+                         alt="Tigrillo" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Tigrillo</h3>
+                        <span class="especie-cientifico">Leopardus tigrinus</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Mamífero</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">1994</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Caza por piel y tráfico ilegal</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        Pequeño felino manchado. Cazado intensivamente por tráfico de pieles 
+                        en las décadas de 1960-1980. Población colapsó completamente.
+                    </p>
+                </div>
+            </article>
+
+            <!-- ========== AVES ========== -->
+
+            <!-- 20. Águila Arpía (existente) -->
+            <article class="especie-card" data-categoria="aves">
+                <div class="card-status endangered">PELIGRO CRÍTICO</div>
+                <div class="card-imagen-container">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF8Trmd5uK2KYRXCUOuwIF8aGMYOEjKFNGgg&s" 
+                         alt="Águila Arpía" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Águila Arpía</h3>
+                        <span class="especie-cientifico">Harpia harpyja</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Ave</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">1998</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Tala de árboles grandes</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        Ave rapaz más poderosa del continente. Amenazada por deforestación. Requiere árboles emergentes 
+                        para nidificar. Prácticamente desaparecida por tala selectiva de árboles centenarios.
+                    </p>
+                </div>
+            </article>
+
+            <!-- 21. Guacamaya Roja (existente) -->
+            <article class="especie-card" data-categoria="aves">
+                <div class="card-status endangered">AMENAZADA</div>
+                <div class="card-imagen-container">
+                    <img src="https://www.mascotarios.org/wp-content/uploads/2016/01/Guacamayo-Macao-1.jpg.webp" 
+                         alt="Guacamayo Rojo" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Guacamaya Roja</h3>
+                        <span class="especie-cientifico">Ara macao</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Ave</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">2001</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Tráfico ilegal de mascotas</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        Icónica ave de plumaje escarlata. Amenazada por tráfico ilegal. Capturada intensivamente para comercio 
+                        de mascotas. Último nido documentado destruido en 2001.
+                    </p>
+                </div>
+            </article>
+
+            <!-- 22. Cotinga Piquiamarilla (NUEVA) -->
+            <article class="especie-card" data-categoria="aves">
+                <div class="card-status near-threatened">CASI AMENAZADA</div>
+                <div class="card-imagen-container">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Carpodectes_antoniae_-_Yellow-billed_Cotinga%3B_Puerto_Jim%C3%A9nez%2C_Puntarenas%2C_Costa_Rica_%28cropped%29.jpg" 
+                         alt="Cotinga Piquiamarilla" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Cotinga Piquiamarilla</h3>
+                        <span class="especie-cientifico">Carpodectes antoniae</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Ave</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">2015</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Destrucción de manglares</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        Casi amenazada por destrucción de manglares. Especie dependiente de ecosistemas de manglar 
+                        en el Pacífico panameño, gravemente afectada por desarrollo costero.
+                    </p>
+                </div>
+            </article>
+
+            <!-- 23. Pavón Grande (existente) -->
+            <article class="especie-card" data-categoria="aves">
+                <div class="card-status endangered">AMENAZADO</div>
+                <div class="card-imagen-container">
+                    <img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/41538181/1200" 
+                         alt="Pavón" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Pavón Grande</h3>
+                        <span class="especie-cientifico">Crax rubra</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Ave</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">1987</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Caza excesiva</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        Ave terrestre de gran tamaño. Amenazado por caza. Altamente sensible a perturbaciones. 
+                        Desapareció por presión de caza combinada con fragmentación de hábitat.
+                    </p>
+                </div>
+            </article>
+
+            <!-- 24. Quetzal Resplandeciente (existente) -->
+            <article class="especie-card" data-categoria="aves extintas">
+                <div class="card-status extinct">EXTINTO LOCALMENTE</div>
+                <div class="card-imagen-container">
+                    <img src="https://inaturalist-open-data.s3.amazonaws.com/photos/354673770/original.jpg" 
+                         alt="Quetzal" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Quetzal Resplandeciente</h3>
+                        <span class="especie-cientifico">Pharomachrus mocinno</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Ave</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">1995</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Deforestación de bosques nubosos</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        Ave sagrada de culturas precolombinas. Especialista de bosques nubosos de montaña. 
+                        Desapareció con la destrucción del 90% de estos ecosistemas.
+                    </p>
+                </div>
+            </article>
+
+            <!-- 25. Lapa Verde (existente) -->
+            <article class="especie-card" data-categoria="aves extintas">
+                <div class="card-status extinct">EXTINTO LOCALMENTE</div>
+                <div class="card-imagen-container">
+                    <img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/41471091/1200" 
+                         alt="Lapa Verde" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Lapa Verde</h3>
+                        <span class="especie-cientifico">Ara ambiguus</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Ave</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">1999</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Deforestación y captura</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        Guacamayo de gran tamaño. Extinta localmente en varias áreas del oeste. Requería almendros maduros 
+                        para alimentación. Extinto localmente por tala de estos árboles y captura para comercio.
+                    </p>
+                </div>
+            </article>
+
+            <!-- 26. Pava Cojolita (existente) -->
+            <article class="especie-card" data-categoria="aves extintas">
+                <div class="card-status extinct">EXTINTO LOCALMENTE</div>
+                <div class="card-imagen-container">
+                    <img src="https://www.diversidadyunpocodetodo.com/wp-content/uploads/2018/02/pava-cojolita-penelope-purpurascens-CR-01-9706.jpg" 
+                         alt="Pava" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Pava Cojolita</h3>
+                        <span class="especie-cientifico">Penelope purpurascens</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Ave</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">1991</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Caza de subsistencia</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        Ave de bosque tropical. Importante dispersor de semillas. Cazada hasta 
+                        la extinción local por ser fuente de proteína para comunidades rurales.
+                    </p>
+                </div>
+            </article>
+
+            <!-- ========== REPTILES ========== -->
+
+            <!-- 27. Cocodrilo Americano (existente) -->
+            <article class="especie-card" data-categoria="reptiles">
+                <div class="card-status vulnerable">VULNERABLE</div>
+                <div class="card-imagen-container">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Crocodylus_acutus_mexico_02-edit1.jpg" 
+                         alt="Cocodrilo" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Cocodrilo Americano</h3>
+                        <span class="especie-cientifico">Crocodylus acutus</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Reptil</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">2005</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Pérdida de hábitat y caza</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        Depredador apex de ecosistemas acuáticos. Vulnerable por pérdida de hábitat. Cazado por su piel 
+                        y eliminado por contaminación industrial de ríos y estuarios.
+                    </p>
+                </div>
+            </article>
+
+            <!-- 28. Tortuga Carey (NUEVA) -->
+            <article class="especie-card" data-categoria="reptiles">
+                <div class="card-status endangered">PELIGRO CRÍTICO</div>
+                <div class="card-imagen-container">
+                    <img src="https://miambiente.gob.pa/wp-content/uploads/2025/06/Tortuga-carey-Eretmochelys-imbricata.jpg" 
+                         alt="Tortuga Carey" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Tortuga Carey</h3>
+                        <span class="especie-cientifico">Eretmochelys imbricata</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Reptil Marino</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">2010</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Tráfico de caparazón y pérdida de arrecifes</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        En peligro crítico por tráfico ilegal de su caparazón ("carey") y destrucción de arrecifes coralinos. 
+                        Las poblaciones anidadoras han colapsado en el Pacífico panameño.
+                    </p>
+                </div>
+            </article>
+
+            <!-- 29. Tortuga Lora (NUEVA) -->
+            <article class="especie-card" data-categoria="reptiles">
+                <div class="card-status vulnerable">VULNERABLE</div>
+                <div class="card-imagen-container">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg-tQMjhl5B4Bixhe0nBP1ijAsf8nj8sfB6g&s" 
+                         alt="Tortuga Lora" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Tortuga Lora (Golfina)</h3>
+                        <span class="especie-cientifico">Lepidochelys olivacea</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Reptil Marino</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">2015</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Pesca incidental y saqueo de nidos</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        Vulnerable por pesca incidental en redes y saqueo de huevos en playas de anidación. 
+                        Las arribadas han disminuido drásticamente en las costas panameñas.
+                    </p>
+                </div>
+            </article>
+
+            <!-- 30. Tortuga Caguama (existente) -->
+            <article class="especie-card" data-categoria="reptiles">
+                <div class="card-status endangered">PELIGRO CRÍTICO</div>
+                <div class="card-imagen-container">
+                    <img src="https://maralliance.org/wp-content/uploads/2022/06/t1.jpg" 
+                         alt="Tortuga Caguama" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Tortuga Caguama</h3>
+                        <span class="especie-cientifico">Caretta caretta</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Reptil Marino</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">2008</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Pesca incidental y playas perturbadas</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        Tortuga marina que anidaba en playas de Panamá Oeste. Desapareció por 
+                        captura en redes pesqueras y desarrollo costero que destruyó playas de anidación.
+                    </p>
+                </div>
+            </article>
+
+            <!-- 31. Iguana Verde (existente) -->
+            <article class="especie-card" data-categoria="reptiles">
+                <div class="card-status endangered">PELIGRO CRÍTICO</div>
+                <div class="card-imagen-container">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_OFmNzrsM4p94QG_MnTepAioCFlGN_JojNw&s" 
+                         alt="Iguana Verde" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Iguana Verde</h3>
+                        <span class="especie-cientifico">Iguana iguana</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Reptil</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">2012</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Caza para consumo</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        Lagarto arbóreo herbívoro. Sobrecazada para consumo humano especialmente 
+                        en Semana Santa. Población colapsó en la mayoría de las áreas.
+                    </p>
+                </div>
+            </article>
+
+            <!-- ========== PECES Y ESPECIES ACUÁTICAS (NUEVA CATEGORÍA) ========== -->
+
+            <!-- 32. Tiburón Martillo (NUEVO) -->
+            <article class="especie-card" data-categoria="peces">
+                <div class="card-status endangered">PELIGRO CRÍTICO</div>
+                <div class="card-imagen-container">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFwzey0qikRUFCoyRtLupTomEle_ZGy67wGA&s" 
+                         alt="Tiburón Martillo" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Tiburón Martillo</h3>
+                        <span class="especie-cientifico">Sphyrna lewini</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Pez</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">2010</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Sobrepesca por aletas</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        En peligro crítico por sobrepesca, especialmente por el comercio de aletas. 
+                        Las poblaciones han disminuido más del 80% en el Pacífico panameño.
+                    </p>
+                </div>
+            </article>
+
+            <!-- 33. Mero Guasa (NUEVO) -->
+            <article class="especie-card" data-categoria="peces">
+                <div class="card-status endangered">EN PELIGRO</div>
+                <div class="card-imagen-container">
+                    <img src="https://www.monaconatureencyclopedia.com/wp-content/uploads/2023/12/1-Epinephelus-itajara-%C2%A9-David-Keep-1.jpg" 
+                         alt="Mero Guasa" class="card-imagen">
+                    <div class="imagen-overlay"></div>
+                </div>
+                <div class="card-contenido">
+                    <div class="especie-header">
+                        <h3 class="especie-nombre">Mero Guasa (Mero Goliat)</h3>
+                        <span class="especie-cientifico">Epinephelus itajara</span>
+                    </div>
+                    <div class="especie-info">
+                        <div class="info-item">
+                            <span class="info-label">Categoría:</span>
+                            <span class="info-value">Pez</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Última Observación:</span>
+                            <span class="info-value">2005</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Causa:</span>
+                            <span class="info-value">Pesca excesiva</span>
+                        </div>
+                    </div>
+                    <p class="especie-descripcion">
+                        En peligro por pesca excesiva. Este gigante de los arrecifes rocosos ha sido 
+                        sobreexplotado por su carne y tamaño. Casi desaparecido de las costas panameñas.
+                    </p>
+                </div>
+            </article>
+
+        </div>
+
+        <!-- Mensaje si no hay resultados -->
+        <div class="no-results" style="display: none;">
+            <div class="no-results-icon">🔍</div>
+            <h3>No se encontraron especies</h3>
+            <p>Intenta con otro término de búsqueda o selecciona una categoría diferente.</p>
+        </div>
+    </section>
+
+    <!-- NOTA IMPORTANTE -->
+    <section class="warning-section">
+        <div class="warning-box" style="background: rgba(0, 255, 136, 0.05); border-color: rgba(0, 255, 136, 0.3);">
+            <div class="warning-icon">📊</div>
+            <h2>Más de 100 Especies Adicionales en Riesgo</h2>
+            <p>
+                Estas especies representan solo las más icónicas y documentadas. 
+                Según datos oficiales, más de <strong>124 especies están actualmente amenazadas</strong> en Panamá, 
+                incluyendo 50 anfibios, 41 peces, 12 aves, 7 mamíferos y 5 reptiles adicionales no mostrados aquí.
+            </p>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE LLAMADO A LA ACCIÓN -->
+    <section class="cta-section">
+        <div class="cta-contenido">
+            <h2>¿Qué Podemos Hacer?</h2>
+            <p>
+                La extinción es permanente, pero la protección de las especies que aún tenemos está en nuestras manos. 
+                Cada acción cuenta para evitar que más especies se sumen a esta lista.
+            </p>
+            <div class="cta-actions">
+                <div class="action-card">
+                    <div class="action-icon">🌳</div>
+                    <h3>Reforestación</h3>
+                    <p>Apoya programas de restauración de hábitats naturales</p>
+                </div>
+                <div class="action-card">
+                    <div class="action-icon">📚</div>
+                    <h3>Educación</h3>
+                    <p>Difunde información sobre conservación ambiental</p>
+                </div>
+                <div class="action-card">
+                    <div class="action-icon">⚖️</div>
+                    <h3>Legislación</h3>
+                    <p>Promueve leyes de protección más estrictas</p>
+                </div>
+                <div class="action-card">
+                    <div class="action-icon">💚</div>
+                    <h3>Donaciones</h3>
+                    <p>Contribuye a organizaciones de conservación</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER CORPORATIVO -->
+    <footer class="footer-profesional">
+        <div class="footer-contenido">
+            <div class="footer-columna">
+                <h3>Museo Digital de Especies</h3>
+                <p>
+                    Documentando y preservando la memoria de las especies que hemos perdido, 
+                    para inspirar la protección de las que aún permanecen.
+                </p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon" aria-label="Facebook">f</a>
+                    <a href="#" class="social-icon" aria-label="Twitter">𝕏</a>
+                    <a href="#" class="social-icon" aria-label="Instagram">📷</a>
+                    <a href="#" class="social-icon" aria-label="LinkedIn">in</a>
+                </div>
+            </div>
+
+            <div class="footer-columna">
+                <h3>Navegación</h3>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../Ecosistemas/O.D.E.html">Ecosistemas</a></li>
+                    <li><a href="../Fauna/O.D.F.html">Faunas</a></li>
+                    <li><a href="M.E.E.html">Especies Extintas</a></li>
+                    <li><a href="../Areas Protegidas/AP.html">Áreas Protegidas</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-columna">
+                <h3>Recursos</h3>
+                <ul>
+                    <li><a href="#conservacion">Conservación</a></li>
+                    <li><a href="#investigacion">Investigación</a></li>
+                    <li><a href="#publicaciones">Publicaciones</a></li>
+                    <li><a href="#reportes">Reportes Anuales</a></li>
+                    <li><a href="#base-datos">Base de Datos</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-columna">
+                <h3>Contacto</h3>
+                <p>📍 Panamá Oeste, Panamá</p>
+                <p>📧 extintas@ecopanama-oeste.org</p>
+                <p>📞 +507 1234-5678</p>
+                <p>🕐 Lun - Vie: 8:00 AM - 5:00 PM</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Museo Digital de Especies Extintas. Todos los derechos reservados. | 
+               <a href="#privacidad">Política de Privacidad</a> | 
+               <a href="#terminos">Términos de Uso</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Sistema de filtros y búsqueda
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const speciesCards = document.querySelectorAll('.especie-card');
+        const noResults = document.querySelector('.no-results');
+
+        filterButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterButtons.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                const filter = btn.dataset.filter;
+                let visibleCount = 0;
+
+                speciesCards.forEach(card => {
+                    if (filter === 'all' || card.dataset.categoria.includes(filter)) {
+                        card.style.display = 'block';
+                        visibleCount++;
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+
+                noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+            });
+        });
+
+        const searchInput = document.getElementById('searchInput');
+
+        searchInput.addEventListener('input', (e) => {
+            const searchTerm = e.target.value.toLowerCase();
+            let visibleCount = 0;
+
+            speciesCards.forEach(card => {
+                const nombre = card.querySelector('.especie-nombre').textContent.toLowerCase();
+                const cientifico = card.querySelector('.especie-cientifico').textContent.toLowerCase();
+                const descripcion = card.querySelector('.especie-descripcion').textContent.toLowerCase();
+
+                if (nombre.includes(searchTerm) || cientifico.includes(searchTerm) || descripcion.includes(searchTerm)) {
+                    card.style.display = 'block';
+                    visibleCount++;
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+
+            noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+        });
+
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        speciesCards.forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(30px)';
+            card.style.transition = 'all 0.6s ease';
+            observer.observe(card);
+        });
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
