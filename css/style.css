@@ -285,17 +285,18 @@ body {
 }
 
 .footer-columna h3 {
-    color: var(--color-acento);
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-    font-weight: 600;
-    text-shadow: 0 0 10px rgba(0, 255, 136, 0.3);
+    color: #cfcfcf;
+    font-size: 1.1rem;
+    margin-bottom: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
 }
 
 .footer-columna p {
-    line-height: 1.8;
-    margin-bottom: 15px;
-    color: var(--color-texto-suave);
+    line-height: 1.7;
+    margin-bottom: 14px;
+    color: #9a9a9a;
+    font-size: 0.95rem;
 }
 
 .footer-columna ul {
@@ -307,9 +308,13 @@ body {
 }
 
 .footer-columna a {
-    color: var(--color-texto-suave);
+    color: #8f8f8f;
     text-decoration: none;
     transition: color 0.3s ease;
+}
+
+.footer-columna a:hover {
+    color: #b5b5b5;
 }
 
 .footer-columna a:hover {
@@ -359,72 +364,140 @@ body {
     color: var(--color-claro);
 }
 
-/* ============================================
-   ANIMACIONES
-============================================ */
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+.footer-extra {
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    padding-top: 25px;
+    text-align: center;
 }
 
-.card-ecosistema {
-    animation: fadeInUp 0.6s ease backwards;
+.footer-cierre {
+    font-size: 0.95rem;
+    color: #a5a5a5;
+    margin-bottom: 10px;
+    font-style: italic;
 }
 
-.card-ecosistema:nth-child(1) { animation-delay: 0.1s; }
-.card-ecosistema:nth-child(2) { animation-delay: 0.2s; }
-.card-ecosistema:nth-child(3) { animation-delay: 0.3s; }
-.card-ecosistema:nth-child(4) { animation-delay: 0.4s; }
-.card-ecosistema:nth-child(5) { animation-delay: 0.5s; }
+.footer-extra .copyright {
+    font-size: 0.85rem;
+    color: #777;
+    letter-spacing: 0.5px;
+}
 
-/* ============================================
-   RESPONSIVE
-============================================ */
+/* =========================
+   RESPONSIVE MOBILE
+========================= */
 @media (max-width: 768px) {
-    .header-contenido {
-        flex-direction: column;
-        gap: 20px;
-    }
 
-    .nav-links {
-        flex-direction: column;
-        gap: 10px;
-        text-align: center;
-    }
+  /* NAVBAR */
+  .navbar {
+    padding: 14px 20px;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
 
-    .hero-section {
-        height: 400px;
-    }
+  .navbar nav {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
 
-    .hero-titulo {
-        font-size: 2rem;
-    }
+  .navbar nav a {
+    margin: 0;
+    font-size: 0.95rem;
+  }
 
-    .intro-section h2,
-    .section-header h2 {
-        font-size: 2rem;
-    }
+  .btn {
+    padding: 8px 18px;
+    font-size: 0.85rem;
+  }
 
-    .grid-ecosistemas {
-        grid-template-columns: 1fr;
-    }
+  /* HERO */
+  .hero {
+    height: 85vh;
+    padding: 100px 20px 40px;
+  }
 
-    .compromiso-contenido h2 {
-        font-size: 2rem;
-    }
+  .hero h1 {
+    font-size: 2.2rem;
+  }
 
-    .footer-contenido {
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
+  .hero p {
+    font-size: 0.95rem;
+    padding: 0 10px;
+  }
 
-    .social-icons {
-        justify-content: center;
-    }
+  /* ABOUT SECTION */
+  .about {
+    padding: 70px 20px;
+  }
+
+  .about h2 {
+    font-size: 1.8rem;
+    margin-bottom: 40px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .eco-card {
+    height: 220px;
+  }
+
+  /* FEATURES */
+  .features {
+    padding: 60px 20px;
+  }
+
+  .features h2 {
+    font-size: 1.8rem;
+  }
+
+  .icons {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .icons div {
+    font-size: 0.9rem;
+  }
+
+  /* FOOTER */
+  .footer-profesional {
+    padding: 50px 20px 25px;
+  }
+
+  .footer-contenido {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .footer-columna h3 {
+    font-size: 1rem;
+  }
+
+  .footer-columna p,
+  .footer-columna a {
+    font-size: 0.9rem;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .footer-extra {
+    padding-top: 20px;
+  }
+
+  .footer-cierre {
+    font-size: 0.85rem;
+  }
+
+  .footer-extra .copyright {
+    font-size: 0.75rem;
+  }
 }
+
